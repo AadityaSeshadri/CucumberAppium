@@ -1,0 +1,254 @@
+[
+  {
+    "source": "^User Initiates Discusion with PruBuddy$",
+    "steps": [
+      {
+        "name": "User Initiates Discusion with PruBuddy",
+        "aggregatedDurations": {
+          "average": 10.041493914,
+          "median": 10.041493914
+        },
+        "durations": [
+          {
+            "duration": 10.041493914,
+            "location": "features/ChatBox.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User Request for  Shares Eligibility$",
+    "steps": [
+      {
+        "name": "User Request for  Shares Eligibility",
+        "aggregatedDurations": {
+          "average": 12.212880292,
+          "median": 12.212880292
+        },
+        "durations": [
+          {
+            "duration": 12.212880292,
+            "location": "features/ChatBox.feature:22"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User Login to Prutopia Application$",
+    "steps": [
+      {
+        "name": "User Login to Prutopia Application",
+        "aggregatedDurations": {
+          "average": 92.588969055,
+          "median": 92.588969055
+        },
+        "durations": [
+          {
+            "duration": 92.588969055,
+            "location": "features/ChatBox.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^PruBuddy responds about Available Parking Slots$",
+    "steps": [
+      {
+        "name": "PruBuddy responds about Available Parking Slots",
+        "aggregatedDurations": {
+          "average": 2.393193458,
+          "median": 2.393193458
+        },
+        "durations": [
+          {
+            "duration": 2.393193458,
+            "location": "features/ChatBox.feature:29"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User Navigates to Chatbox Window$",
+    "steps": [
+      {
+        "name": "User Navigates to Chatbox Window",
+        "aggregatedDurations": {
+          "average": 0.008807079,
+          "median": 0.008807079
+        },
+        "durations": [
+          {
+            "duration": 0.008807079,
+            "location": "features/ChatBox.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^PruBuddy responds about PRUSharePlus$",
+    "steps": [
+      {
+        "name": "PruBuddy responds about PRUSharePlus",
+        "aggregatedDurations": {
+          "average": 0.000114244,
+          "median": 0.000114244
+        },
+        "durations": [
+          {
+            "duration": 0.000114244,
+            "location": "features/ChatBox.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^PruBuddy asks for Term of Service$",
+    "steps": [
+      {
+        "name": "PruBuddy asks for Term of Service",
+        "aggregatedDurations": {
+          "average": 0.00014869,
+          "median": 0.00014869
+        },
+        "durations": [
+          {
+            "duration": 0.00014869,
+            "location": "features/ChatBox.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User Enters Job Level$",
+    "steps": [
+      {
+        "name": "User Enters Job Level",
+        "aggregatedDurations": {
+          "average": 9.767168921,
+          "median": 9.767168921
+        },
+        "durations": [
+          {
+            "duration": 9.767168921,
+            "location": "features/ChatBox.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^PruBuddy asks Job Level$",
+    "steps": [
+      {
+        "name": "PruBuddy asks Job Level",
+        "aggregatedDurations": {
+          "average": 0.000365053,
+          "median": 0.000365053
+        },
+        "durations": [
+          {
+            "duration": 0.000365053,
+            "location": "features/ChatBox.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User Request for  Car Parking Slots$",
+    "steps": [
+      {
+        "name": "User Request for  Car Parking Slots",
+        "aggregatedDurations": {
+          "average": 12.910570289,
+          "median": 12.910570289
+        },
+        "durations": [
+          {
+            "duration": 12.910570289,
+            "location": "features/ChatBox.feature:28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User Request for  Leave Balance$",
+    "steps": [
+      {
+        "name": "User Request for  Leave Balance",
+        "aggregatedDurations": {
+          "average": 11.26722026,
+          "median": 11.26722026
+        },
+        "durations": [
+          {
+            "duration": 11.26722026,
+            "location": "features/ChatBox.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^PruBuddy Responds with Number of eligible leaves$",
+    "steps": [
+      {
+        "name": "PruBuddy Responds with Number of eligible leaves",
+        "aggregatedDurations": {
+          "average": 0.048069375,
+          "median": 0.048069375
+        },
+        "durations": [
+          {
+            "duration": 0.048069375,
+            "location": "features/ChatBox.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User Validates Elements in ChatBox Window$",
+    "steps": [
+      {
+        "name": "User Validates Elements in ChatBox Window",
+        "aggregatedDurations": {
+          "average": 4.806768034,
+          "median": 4.806768034
+        },
+        "durations": [
+          {
+            "duration": 4.806768034,
+            "location": "features/ChatBox.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User Enter Term of Service$",
+    "steps": [
+      {
+        "name": "User Enter Term of Service",
+        "aggregatedDurations": {
+          "average": 9.160161055,
+          "median": 9.160161055
+        },
+        "durations": [
+          {
+            "duration": 9.160161055,
+            "location": "features/ChatBox.feature:16"
+          }
+        ]
+      }
+    ]
+  }
+]

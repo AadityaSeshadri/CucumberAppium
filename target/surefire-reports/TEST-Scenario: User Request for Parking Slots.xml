@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: User Request for Parking Slots" time="0.132" tests="18" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="9.0.4+11"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/user/Documents/Appium_Cucumber"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="user.country" value="SG"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/user/Documents/Appium_Cucumber"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="9.0.4+11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/5b/12pg9p3j4p59syhbdc1snwsm0000gp/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.5.3/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/user/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.5.3/libexec/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="53.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.13.3"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.5.3/libexec/lib/jansi-native"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/user"/>
+    <property name="user.timezone" value="Asia/Singapore"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="9"/>
+    <property name="user.name" value="user"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.5.3/libexec/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="9"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean package"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="9.0.4"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.5.3/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="When User Login to Prutopia Application" classname="Scenario: Login to Prutopia Chat Box Application" time="0.021"/>
+  <testcase name="When User Navigates to Chatbox Window" classname="Scenario: Login to Prutopia Chat Box Application" time="0"/>
+  <testcase name="Then User Validates Elements in ChatBox Window" classname="Scenario: Login to Prutopia Chat Box Application" time="0"/>
+  <testcase name="Scenario: Login to Prutopia Chat Box Application" classname="Scenario: Login to Prutopia Chat Box Application" time="0.084"/>
+  <testcase name="When User Initiates Discusion with PruBuddy" classname="Scenario: User Request for Leave Balance" time="0"/>
+  <testcase name="When User Request for  Leave Balance" classname="Scenario: User Request for Leave Balance" time="0"/>
+  <testcase name="Then PruBuddy asks Job Level" classname="Scenario: User Request for Leave Balance" time="0"/>
+  <testcase name="When User Enters Job Level" classname="Scenario: User Request for Leave Balance" time="0"/>
+  <testcase name="Then PruBuddy asks for Term of Service" classname="Scenario: User Request for Leave Balance" time="0"/>
+  <testcase name="When User Enter Term of Service" classname="Scenario: User Request for Leave Balance" time="0"/>
+  <testcase name="Then PruBuddy Responds with Number of eligible leaves" classname="Scenario: User Request for Leave Balance" time="0"/>
+  <testcase name="Scenario: User Request for Leave Balance" classname="Scenario: User Request for Leave Balance" time="0.008"/>
+  <testcase name="When User Request for  Shares Eligibility" classname="Scenario: User Request for Share Price" time="0.001"/>
+  <testcase name="Then PruBuddy responds about PRUSharePlus" classname="Scenario: User Request for Share Price" time="0"/>
+  <testcase name="Scenario: User Request for Share Price" classname="Scenario: User Request for Share Price" time="0.011"/>
+  <testcase name="When User Request for  Car Parking Slots" classname="Scenario: User Request for Parking Slots" time="0"/>
+  <testcase name="Then PruBuddy responds about Available Parking Slots" classname="Scenario: User Request for Parking Slots" time="0"/>
+  <testcase name="Scenario: User Request for Parking Slots" classname="Scenario: User Request for Parking Slots" time="0.007"/>
+</testsuite>
