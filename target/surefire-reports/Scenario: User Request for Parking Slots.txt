@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: Scenario: User Request for Parking Slots
--------------------------------------------------------------------------------
-Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 166.116 sec - in Scenario: User Request for Parking Slots

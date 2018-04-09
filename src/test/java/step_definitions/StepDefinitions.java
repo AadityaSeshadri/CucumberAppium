@@ -2,6 +2,7 @@ package step_definitions;
 
 import static org.testng.AssertJUnit.assertEquals;
 
+import cucumber.api.PendingException;
 import cucumber.api.Scenario;
 import helpers.Log;
 import io.appium.java_client.AppiumDriver;
@@ -14,6 +15,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import pageobjects.ChatPage;
 import pageobjects.HomePage;
 import pageobjects.LoginPage;
@@ -23,103 +25,104 @@ import java.util.concurrent.TimeUnit;
 
 
 public class StepDefinitions {
-    public WebDriver driver;
+    public AppiumDriver driver;
      Scenario scenario;
-    //org.apache.log4j.Logger Log = org.apache.log4j.Logger.getLogger("StepDefinitions.java");
-
-    public StepDefinitions()
+public StepDefinitions()
     {
         driver = Hooks.driver;
         scenario = Hooks.scenario  ;
-    }
-    @When("^User Login to Prutopia Application$")
-    public void User_Login_to_Prutopia_Application() throws Throwable
-    {
-      //  public void user_Navigates_to_Facebook_and_Login_with_Username_and_Password(String arg1, String arg2) throws Throwable {
-        //System.out.println("Scenario name inside -------------------------" + scenario.getName());
-        Log.info("Started Execution");
-        System.out.println("Before Check_PageLoading_Elements");
-        ChatPage.User_Login_to_Prutopia_Application(scenario);
-    }
 
-    @When("^User Navigates to Chatbox Window$")
-    public void User_Navigates_to_Chatbox_Window() throws Throwable {
-        System.out.println("************scenario************" + scenario.getName());
-        //PageFactory.initElements(driver, HomePage.class);
-        ChatPage.User_Navigates_to_Chatbox_Window();
-    }
-
-    @When("^User Validates Elements in ChatBox Window$")
-    public void User_Validates_Elements_in_ChatBox_Window() throws Throwable {
-        //PageFactory.initElements(driver, HomePage.class);
-        ChatPage.User_Validates_Elements_in_ChatBox_Window(scenario);
-    }
-
-    @When("^User Initiates Discusion with PruBuddy$")
-    public void User_Initiates_Discusion_with_PruBuddy() throws Throwable {
-        //PageFactory.initElements(driver, HomePage.class);
-        ChatPage.User_Initiates_Discusion_with_PruBuddy(scenario);
     }
 
 
-    @When("^User Request for  Leave Balance$")
-    public void User_Request_for_Leave_Balance() throws Throwable {
-        //PageFactory.initElements(driver, HomePage.class);
-        ChatPage.User_Request_for_Leave_Balance(scenario);
+    @When("^User Opens Prutopia Application$")
+    public void user_Opens_Prutopia_Application() throws Throwable {
+
+        System.out.println("User Opens Prutopia Application");
+        LoginPage.user_Opens_Prutopia_Application(driver,scenario);
     }
 
-    @Then("^PruBuddy asks Job Level$")
-    public void PruBuddy_asks_Job_Level() throws Throwable {
-        //PageFactory.initElements(driver, HomePage.class);
-        ChatPage.PruBuddy_asks_Job_Level(scenario);
+    @Then("^User should be able to see Splash Screen$")
+    public void user_should_be_able_to_see_Splash_Screen() throws Throwable {
+
+        LoginPage.user_should_be_able_to_see_Splash_Screen(driver,scenario);
     }
 
-    @When("^User Enters Job Level$")
-    public void User_Enters_Job_Level() throws Throwable {
-        //PageFactory.initElements(driver, HomePage.class);
-        ChatPage.User_Enters_Job_Level(scenario);
+    @Then("^User is navigated to Azure Directory for Login$")
+    public void user_is_navigated_to_Azure_Directory_for_Login() throws Throwable {
+
+        LoginPage.user_is_navigated_to_Azure_Directory_for_Login(driver,scenario);
     }
 
-    @Then("^PruBuddy asks for Term of Service$")
-    public void PruBuddy_asks_for_Term_of_Service() throws Throwable {
-       // PageFactory.initElements(driver, HomePage.class);
-        ChatPage.PruBuddy_asks_for_Term_of_Service(scenario);
+    @When("^User Enters Username$")
+    public void user_Enters_Username() throws Throwable {
+
+        LoginPage.user_Enters_Username(driver,scenario);
     }
 
-    @When("^User Enter Term of Service$")
-    public void User_Enter_Term_of_Service() throws Throwable {
-       // PageFactory.initElements(driver, HomePage.class);
-        ChatPage.User_Enter_Term_of_Service(scenario);
+    @Then("^User Clicks on Next Button$")
+    public void user_Clicks_on_Next_Button() throws Throwable {
+
+        LoginPage.user_Clicks_on_Next_Button(driver,scenario);
     }
 
-    @Then("^PruBuddy Responds with Number of eligible leaves$")
-    public void PruBuddy_Responds_with_Number_of_eligible_leaves() throws Throwable {
-        PageFactory.initElements(driver, HomePage.class);
-        ChatPage.PruBuddy_Responds_with_Number_of_eligible_leaves(scenario);
+    @When("^User Enters Password$")
+    public void user_Enters_Password() throws Throwable {
+
+        LoginPage.user_Enters_Password(driver,scenario);
     }
 
-    @When("^User Request for  Shares Eligibility$")
-    public void User_Request_for_Shares_Eligibility() throws Throwable {
-       // PageFactory.initElements(driver, HomePage.class);
-        ChatPage.User_Request_for_Shares_Eligibility(scenario);
+    @Then("^User Clicks on Sign in Button$")
+    public void user_Clicks_on_Sign_in_Button() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        //throw new PendingException();
+        LoginPage.user_Clicks_on_Sign_in_Button(driver,scenario);
     }
 
-    @Then("^PruBuddy responds about PRUSharePlus$")
-    public void PruBuddy_responds_about_PRUSharePlus() throws Throwable {
-       // PageFactory.initElements(driver, HomePage.class);
-        ChatPage.PruBuddy_responds_about_PRUSharePlus(scenario);
+    @Then("^User is Navigated to Home Page of the Application$")
+    public void user_is_Navigated_to_Home_Page_of_the_Application() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+       // throw new PendingException();
+        LoginPage.user_is_Navigated_to_Home_Page_of_the_Application(driver,scenario);
     }
 
-    @When("^User Request for  Car Parking Slots$")
-    public void User_Request_for_Car_Parking_Slots() throws Throwable {
-        //PageFactory.initElements(driver, HomePage.class);
-        ChatPage.User_Request_for_Car_Parking_Slots(scenario);
+    @Then("^Elements in Home Page are Validated$")
+    public void elements_in_Home_Page_are_Validated() throws Throwable {
+
+        LoginPage.elements_in_Home_Page_are_Validated(driver,scenario);
     }
 
-    @Then("^PruBuddy responds about Available Parking Slots$")
-    public void PruBuddy_responds_about_Available_Parking_Slots() throws Throwable {
-       // PageFactory.initElements(driver, HomePage.class);
-        ChatPage.PruBuddy_responds_about_Available_Parking_Slots(scenario);
+    //New
+    @When("^User Clicks on the Chat Icon at Bottom of Home Page$")
+    public void user_Clicks_on_the_Chat_Icon_at_Bottom_of_Home_Page() throws Throwable {
+
+        LoginPage.user_Clicks_on_the_Chat_Icon_at_Bottom_of_Home_Page(driver,scenario);
     }
-    
+
+    @Then("^User is navigated to the Chat Page of the Application$")
+    public void user_is_navigated_to_the_Chat_Page_of_the_Application() throws Throwable {
+
+        LoginPage.user_is_navigated_to_the_Chat_Page_of_the_Application(driver,scenario);
+    }
+
+    @When("^User sends Request Text \"(.*?)\"$")
+    public void user_sends_Request_Text(String Req_Text) throws Throwable {
+
+        ChatPage.User_sends_ReqText(driver,scenario,Req_Text);
+
+    }
+
+    @Then("^PruBuddy sends Response Text \"(.*?)\"$")
+    public void prubuddy_sends_Response_Text(String Resp_Text) throws Throwable {
+        ChatPage.Prubuddy_Sends_Response(driver,scenario,Resp_Text);
+
+    }
+
+    @Then("^User Clicks on Main Screen Icon$")
+    public void User_Clicks_on_Main_Screen_Icon() throws Throwable {
+        ChatPage.User_Clicks_on_Main_Screen_Icon();
+    }
+
+
+
 }

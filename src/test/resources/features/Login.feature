@@ -1,49 +1,47 @@
 Feature: Login Scenarios
 
+      @DemoPositive1
+      Scenario: Login to Prutopia App Navigate to Home Screen and Validate Home Page Elements
+        When User Opens Prutopia Application
+        Then User should be able to see Splash Screen
+        Then User is navigated to Azure Directory for Login
+        When User Enters Username
+        Then User Clicks on Next Button
+        When User Enters Password
+        Then User Clicks on Sign in Button
+        Then User is Navigated to Home Page of the Application
+        Then Elements in Home Page are Validated
 
-   Scenario:  Application Launch
-    When User Launch Prutopia Application
-    Then User can see Splash Screen with Prudential Logo
-    Then User can see Login Screen in Web Page
 
-   Scenario Outline: Wrong Credentials in Active Directory First Time
-    When User Enters User name <username>
-    When User enters Password <password>
-    When User Clicks on Login Button
-    Then User can see error Message for Invalid Credentials
+  @DemoPositive2
+  Scenario: Navigating to PruBuddy and Perform Chat
+    When User Clicks on the Chat Icon at Bottom of Home Page
+    Then User is navigated to the Chat Page of the Application
+
+  @DemoPositive2
+  Scenario Outline: User Chats and Validates Response from  Virtual Assistant
+    When User sends Request Text "<RequestText>"
+    Then PruBuddy sends Response Text "<ResponseText>"
+
     Examples:
-      |username|password|
-      |        |        |
-      |        |        |
-
-   Scenario Outline: Empty Credentials in Active Directory First Time
-    When User Clicks on Login Button
-    Then User can see error Message for Invalid Credentials
-    Examples:
-      |username|password|
-      |        |        |
-      |        |        |
+      |     RequestText                                    |   ResponseText                                               |
+      |    Hi                                              |  Hello, I am PRUBuddy,  your virtual assistant               |
+      |My Leave                                            |  May I know what is your job level?                          |
+      |Senior Manager                                      |Yes or No                                                     |
+      |Yes                                                 |You are entitled to 22 days of leave per annum                |
+      |Long Leave Service                                  |How many years are you with PACS?                             |
+      |2) 10 years or longer                               |Yes                                                           |
+      |Working hours                                       |Are you working in head office or customer centre?            |
+      |1) Head office                                      |Normal Working Hours:8.30 am                                  |
 
 
-   Scenario Outline: Positive Login in Active Directory
-    When User Enters User name <username>
-    When User enters Password <password>
-    When User Clicks on Login Button
-    Then User is navigated to Application MainScreen to see News Feed
-    Examples:
-      |username|password|
-      |        |        |
-      |        |        |
 
 
-    Scenario: User can Navigate to ChatPage from Main Application Page
-      When User Clicks on ChatBox Icon on Main Application Page
-      Then User is Navigated to Chat Box Application Page
-      Then User Exits Prutopia Application
 
-    Scenario: User Prompted for Face ID / Touch ID for second time Login
-      When User Launch Prutopia Application for second time
-      Then User is Prompted for Face ID/Touch ID
+
+
+
+
 
 
 

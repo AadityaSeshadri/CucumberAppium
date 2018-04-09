@@ -1,7 +1,7 @@
 package pageobjects;
 //import helpers.Log;
 
-import com.sun.java.swing.plaf.windows.WindowsInternalFrameTitlePane;
+//import com.sun.java.swing.plaf.windows.WindowsInternalFrameTitlePane;
 import cucumber.api.Scenario;
 import helpers.Log;
 import org.apache.log4j.PropertyConfigurator;

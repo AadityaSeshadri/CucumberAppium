@@ -1,251 +1,350 @@
 [
   {
-    "source": "^User Initiates Discusion with PruBuddy$",
+    "source": "^User Clicks on Sign in Button$",
     "steps": [
       {
-        "name": "User Initiates Discusion with PruBuddy",
+        "name": "User Clicks on Sign in Button",
         "aggregatedDurations": {
-          "average": 10.041493914,
-          "median": 10.041493914
+          "average": 1.924244731,
+          "median": 1.924244731
         },
         "durations": [
           {
-            "duration": 10.041493914,
-            "location": "features/ChatBox.feature:11"
+            "duration": 1.924244731,
+            "location": "features/Login.feature:11"
           }
         ]
       }
     ]
   },
   {
-    "source": "^User Request for  Shares Eligibility$",
+    "source": "^User is navigated to the Chat Page of the Application$",
     "steps": [
       {
-        "name": "User Request for  Shares Eligibility",
+        "name": "User is navigated to the Chat Page of the Application",
         "aggregatedDurations": {
-          "average": 12.212880292,
-          "median": 12.212880292
+          "average": 3.170566377,
+          "median": 3.170566377
         },
         "durations": [
           {
-            "duration": 12.212880292,
-            "location": "features/ChatBox.feature:22"
+            "duration": 3.170566377,
+            "location": "features/Login.feature:19"
           }
         ]
       }
     ]
   },
   {
-    "source": "^User Login to Prutopia Application$",
+    "source": "^User Clicks on Next Button$",
     "steps": [
       {
-        "name": "User Login to Prutopia Application",
+        "name": "User Clicks on Next Button",
         "aggregatedDurations": {
-          "average": 92.588969055,
-          "median": 92.588969055
+          "average": 4.04611497,
+          "median": 4.04611497
         },
         "durations": [
           {
-            "duration": 92.588969055,
-            "location": "features/ChatBox.feature:5"
+            "duration": 4.04611497,
+            "location": "features/Login.feature:9"
           }
         ]
       }
     ]
   },
   {
-    "source": "^PruBuddy responds about Available Parking Slots$",
+    "source": "^User Clicks on the Chat Icon at Bottom of Home Page$",
     "steps": [
       {
-        "name": "PruBuddy responds about Available Parking Slots",
+        "name": "User Clicks on the Chat Icon at Bottom of Home Page",
         "aggregatedDurations": {
-          "average": 2.393193458,
-          "median": 2.393193458
+          "average": 3.078870351,
+          "median": 3.078870351
         },
         "durations": [
           {
-            "duration": 2.393193458,
-            "location": "features/ChatBox.feature:29"
+            "duration": 3.078870351,
+            "location": "features/Login.feature:18"
           }
         ]
       }
     ]
   },
   {
-    "source": "^User Navigates to Chatbox Window$",
+    "source": "^User should be able to see Splash Screen$",
     "steps": [
       {
-        "name": "User Navigates to Chatbox Window",
+        "name": "User should be able to see Splash Screen",
         "aggregatedDurations": {
-          "average": 0.008807079,
-          "median": 0.008807079
+          "average": 0.000061838,
+          "median": 0.000061838
         },
         "durations": [
           {
-            "duration": 0.008807079,
-            "location": "features/ChatBox.feature:6"
+            "duration": 0.000061838,
+            "location": "features/Login.feature:6"
           }
         ]
       }
     ]
   },
   {
-    "source": "^PruBuddy responds about PRUSharePlus$",
+    "source": "^User Enters Password$",
     "steps": [
       {
-        "name": "PruBuddy responds about PRUSharePlus",
+        "name": "User Enters Password",
         "aggregatedDurations": {
-          "average": 0.000114244,
-          "median": 0.000114244
+          "average": 8.795166841,
+          "median": 8.795166841
         },
         "durations": [
           {
-            "duration": 0.000114244,
-            "location": "features/ChatBox.feature:23"
+            "duration": 8.795166841,
+            "location": "features/Login.feature:10"
           }
         ]
       }
     ]
   },
   {
-    "source": "^PruBuddy asks for Term of Service$",
+    "source": "^User Enters Username$",
     "steps": [
       {
-        "name": "PruBuddy asks for Term of Service",
+        "name": "User Enters Username",
         "aggregatedDurations": {
-          "average": 0.00014869,
-          "median": 0.00014869
+          "average": 4.394418953,
+          "median": 4.394418953
         },
         "durations": [
           {
-            "duration": 0.00014869,
-            "location": "features/ChatBox.feature:15"
+            "duration": 4.394418953,
+            "location": "features/Login.feature:8"
           }
         ]
       }
     ]
   },
   {
-    "source": "^User Enters Job Level$",
+    "source": "^User is navigated to Azure Directory for Login$",
     "steps": [
       {
-        "name": "User Enters Job Level",
+        "name": "User is navigated to Azure Directory for Login",
         "aggregatedDurations": {
-          "average": 9.767168921,
-          "median": 9.767168921
+          "average": 5.880873472,
+          "median": 5.880873472
         },
         "durations": [
           {
-            "duration": 9.767168921,
-            "location": "features/ChatBox.feature:14"
+            "duration": 5.880873472,
+            "location": "features/Login.feature:7"
           }
         ]
       }
     ]
   },
   {
-    "source": "^PruBuddy asks Job Level$",
+    "source": "^PruBuddy sends Response Text \"(.*?)\"$",
     "steps": [
       {
-        "name": "PruBuddy asks Job Level",
+        "name": "PruBuddy sends Response Text \"Hello, I am PRUBuddy,  your virtual assistant\"",
         "aggregatedDurations": {
-          "average": 0.000365053,
-          "median": 0.000365053
+          "average": 3.027064953,
+          "median": 3.027064953
         },
         "durations": [
           {
-            "duration": 0.000365053,
-            "location": "features/ChatBox.feature:13"
+            "duration": 3.027064953,
+            "location": "features/Login.feature:24"
+          }
+        ]
+      },
+      {
+        "name": "PruBuddy sends Response Text \"May I know what is your job level?\"",
+        "aggregatedDurations": {
+          "average": 3.257303613,
+          "median": 3.257303613
+        },
+        "durations": [
+          {
+            "duration": 3.257303613,
+            "location": "features/Login.feature:24"
+          }
+        ]
+      },
+      {
+        "name": "PruBuddy sends Response Text \"Yes or No\"",
+        "aggregatedDurations": {
+          "average": 3.617063877,
+          "median": 3.617063877
+        },
+        "durations": [
+          {
+            "duration": 3.617063877,
+            "location": "features/Login.feature:24"
+          }
+        ]
+      },
+      {
+        "name": "PruBuddy sends Response Text \"You are entitled to 22 days of leave per annum\"",
+        "aggregatedDurations": {
+          "average": 3.749994814,
+          "median": 3.749994814
+        },
+        "durations": [
+          {
+            "duration": 3.749994814,
+            "location": "features/Login.feature:24"
           }
         ]
       }
     ]
   },
   {
-    "source": "^User Request for  Car Parking Slots$",
+    "source": "^Elements in Home Page are Validated$",
     "steps": [
       {
-        "name": "User Request for  Car Parking Slots",
+        "name": "Elements in Home Page are Validated",
         "aggregatedDurations": {
-          "average": 12.910570289,
-          "median": 12.910570289
+          "average": 2.854945255,
+          "median": 2.854945255
         },
         "durations": [
           {
-            "duration": 12.910570289,
-            "location": "features/ChatBox.feature:28"
+            "duration": 2.854945255,
+            "location": "features/Login.feature:13"
           }
         ]
       }
     ]
   },
   {
-    "source": "^User Request for  Leave Balance$",
+    "source": "^User Opens Prutopia Application$",
     "steps": [
       {
-        "name": "User Request for  Leave Balance",
+        "name": "User Opens Prutopia Application",
         "aggregatedDurations": {
-          "average": 11.26722026,
-          "median": 11.26722026
+          "average": 0.202541066,
+          "median": 0.202541066
         },
         "durations": [
           {
-            "duration": 11.26722026,
-            "location": "features/ChatBox.feature:12"
+            "duration": 0.202541066,
+            "location": "features/Login.feature:5"
           }
         ]
       }
     ]
   },
   {
-    "source": "^PruBuddy Responds with Number of eligible leaves$",
+    "source": "^User is Navigated to Home Page of the Application$",
     "steps": [
       {
-        "name": "PruBuddy Responds with Number of eligible leaves",
+        "name": "User is Navigated to Home Page of the Application",
         "aggregatedDurations": {
-          "average": 0.048069375,
-          "median": 0.048069375
+          "average": 5.436482114,
+          "median": 5.436482114
         },
         "durations": [
           {
-            "duration": 0.048069375,
-            "location": "features/ChatBox.feature:17"
+            "duration": 5.436482114,
+            "location": "features/Login.feature:12"
           }
         ]
       }
     ]
   },
   {
-    "source": "^User Validates Elements in ChatBox Window$",
+    "source": "^User sends Request Text \"(.*?)\"$",
     "steps": [
       {
-        "name": "User Validates Elements in ChatBox Window",
+        "name": "User sends Request Text \"Hi\"",
         "aggregatedDurations": {
-          "average": 4.806768034,
-          "median": 4.806768034
+          "average": 10.499608179,
+          "median": 10.499608179
         },
         "durations": [
           {
-            "duration": 4.806768034,
-            "location": "features/ChatBox.feature:7"
+            "duration": 10.499608179,
+            "location": "features/Login.feature:23"
           }
         ]
-      }
-    ]
-  },
-  {
-    "source": "^User Enter Term of Service$",
-    "steps": [
+      },
       {
-        "name": "User Enter Term of Service",
+        "name": "User sends Request Text \"My Leave\"",
         "aggregatedDurations": {
-          "average": 9.160161055,
-          "median": 9.160161055
+          "average": 11.579682476,
+          "median": 11.579682476
         },
         "durations": [
           {
-            "duration": 9.160161055,
-            "location": "features/ChatBox.feature:16"
+            "duration": 11.579682476,
+            "location": "features/Login.feature:23"
+          }
+        ]
+      },
+      {
+        "name": "User sends Request Text \"Senior Manager\"",
+        "aggregatedDurations": {
+          "average": 12.663442556,
+          "median": 12.663442556
+        },
+        "durations": [
+          {
+            "duration": 12.663442556,
+            "location": "features/Login.feature:23"
+          }
+        ]
+      },
+      {
+        "name": "User sends Request Text \"Yes\"",
+        "aggregatedDurations": {
+          "average": 13.115125378,
+          "median": 13.115125378
+        },
+        "durations": [
+          {
+            "duration": 13.115125378,
+            "location": "features/Login.feature:23"
+          }
+        ]
+      },
+      {
+        "name": "User sends Request Text \"2) 10 years or longer\"",
+        "aggregatedDurations": {
+          "average": 16.088397139,
+          "median": 16.088397139
+        },
+        "durations": [
+          {
+            "duration": 16.088397139,
+            "location": "features/Login.feature:23"
+          }
+        ]
+      },
+      {
+        "name": "User sends Request Text \"Working hours\"",
+        "aggregatedDurations": {
+          "average": 16.302926969,
+          "median": 16.302926969
+        },
+        "durations": [
+          {
+            "duration": 16.302926969,
+            "location": "features/Login.feature:23"
+          }
+        ]
+      },
+      {
+        "name": "User sends Request Text \"1) Head office\"",
+        "aggregatedDurations": {
+          "average": 17.199028801,
+          "median": 17.199028801
+        },
+        "durations": [
+          {
+            "duration": 17.199028801,
+            "location": "features/Login.feature:23"
           }
         ]
       }

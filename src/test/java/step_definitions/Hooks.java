@@ -31,6 +31,7 @@ import org.openqa.selenium.phantomjs.PhantomJSDriver;
 import org.openqa.selenium.phantomjs.PhantomJSDriverService;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
@@ -38,9 +39,11 @@ import org.testng.annotations.BeforeSuite;
 import javax.imageio.ImageIO;
 
 import io.appium.java_client.AppiumDriver;
+import pageobjects.ChatPage;
 
 public class Hooks{
-   public static WebDriver driver;
+   public static AppiumDriver driver;
+    public static WebDriverWait wait ;
     public static Scenario scenario;
     public static String OS_Name;
 
@@ -48,25 +51,9 @@ public class Hooks{
     private AppiumServiceBuilder builder;
     private DesiredCapabilities cap;
 
-    /*@Before("@Chatbox")
-    public void first (Scenario scenario)
-    {
-        System.out.println("****************************************************************************");
-        try {
-            Reusable_Functions.getData(scenario.getName());
-        } catch (IOException e) {
-            System.out.println("Scenario Unable to Locate in Test Data");
-        }
 
-    }
-    @After("@Chatbox")
-    public void after(Scenario scenario)
-    {
-        Collections.emptyMap();
-        System.out.println("********" + Reusable_Functions.hashMap.get("DV1"));
-    }*/
 
-    /*public void startServer() {
+    public void startServer() {
         //Set Capabilities
         cap = new DesiredCapabilities();
         cap.setCapability("noReset", "false");
@@ -84,7 +71,7 @@ public class Hooks{
         service.start();
         System.out.println("successfully started");
     }
-    @Before
+    @Before("@DemoPositive1")
     public void openBrowser(Scenario scenario) throws IOException, InterruptedException {
         Hooks.scenario = scenario;
         startServer();
@@ -110,15 +97,12 @@ public class Hooks{
         //driver  = (AppiumDriver) new RemoteWebDriver(new URL("http://127.0.0.1:4723/wd/hub/"), capabilities);
         driver = new IOSDriver(new URL("http://127.0.0.1:4725/wd/hub"), capabilities);
         // driver = new RemoteWebDriver(new URL("http://127.0.0.1:4725/wd/hub"), capabilities);
-       }*/
+        wait = new WebDriverWait(driver,20);
 
-     @Before
-     public void a(Scenario scenario)
-     {
-         Hooks.scenario = scenario;
-         //System.out.println("inside Hooks "+scenario.getName());
-     }
-    @After(order = 1)
+    }
+
+
+    //@After(order = 1)
     public void embedScreenshot(Scenario scenario) {
 
         /*if (scenario.isFailed()) {
@@ -147,10 +131,10 @@ public class Hooks{
 
         //driver.quit();
     }
-    @After(order = 0)
-    public void AfterSteps() throws InterruptedException {
+    //@After(order = 0)
+  /*  public void AfterSteps() throws InterruptedException {
 
-        CucumberDetailedResults results = new CucumberDetailedResults();
+      *//*  CucumberDetailedResults results = new CucumberDetailedResults();
         results.setOutputDirectory("target/");
         results.setOutputName("cucumber-results");
         results.setSourceFile(System.getProperty("user.dir")+"/target/cucumber.json");
@@ -159,12 +143,11 @@ public class Hooks{
             results.execute(true,true);
         } catch (Exception e) {
             e.printStackTrace();
-        }
-
-
-
-
-    }
+        }*//*
+      //driver.quit();
+        driver.quit();
+        service.stop();
+}*/
 
 
 

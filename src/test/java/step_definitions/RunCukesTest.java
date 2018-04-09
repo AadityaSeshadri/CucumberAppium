@@ -13,21 +13,8 @@ import cucumber.api.junit.Cucumber;
 import java.io.File;
 
 
-/*@RunWith(Cucumber.class)
-//jsonReport = "target/cucumber.json",
-@ExtendedCucumberOptions(
-		retryCount = 0,
-		detailedReport = true,
-		detailedAggregatedReport = true,
-		overviewReport = true,
-		//coverageReport = true,
-		jsonUsageReport = "target/cucumber.json",
-		usageReport = true,
-		toPDF = true,
-		//excludeCoverageTags = {"@flaky" },
-		includeCoverageTags = {"@Login" },
-		outputFolder = "target/")*/
-@RunWith(ExtendedCucumber.class)
+
+@RunWith(Cucumber.class)
 @ExtendedCucumberOptions(jsonReport = "target/cucumber.json",
 		retryCount = 0,
 		detailedReport = true,
@@ -38,24 +25,20 @@ import java.io.File;
 		usageReport = false,
 		toPDF = true,
 		//excludeCoverageTags = {"@flaky" },
-		includeCoverageTags = {"@Chatbox","@LeaveBalance","@SharePrice","@ParkingSlots"},
+		//includeCoverageTags = {"@Chatbox","@LeaveBalance","@SharePrice","@ParkingSlots"},
+		includeCoverageTags = {"@Chat"},
 		outputFolder = "target/")
 
 @CucumberOptions(
 		features = "classpath:features",
-		//features = "./src/test/resources/features",
-		//glue = "C:\\SeleniumCucumberCOde\\resent code\\cucumber-jvm-template-master\\src\\test\\java\\step_definitions",
-		//"json:target/cucumber.json",
-		//"html:target/cucumber-html-report", "json:target/cucumber.json", "pretty:target/cucumber-pretty.txt",   "usage:target/cucumber-usage.json", "junit:target/cucumber-results.xml"
-		//plugin = {"html:target/cucumber-html-report", "json:target/cucumber.json", "pretty:target/cucumber-pretty.txt","usage:target/cucumber-usage.json", "junit:target/cucumber-results.xml","com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-ExtendedReports/report.html"},
-		plugin = {"json:target/cucumber.json","usage:target/cucumber-usage.json","com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-ExtendedReports/report.html"},
-		//plugin = {"html:target/cucumber-html-report", "json:target/cucumber.json", "pretty:target/cucumber-pretty.txt",   "usage:target/cucumber-usage.json", "junit:target/cucumber-results.xml","com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-ExtendedReports/report.html"},
-		tags = {"@Chatbox,@LeaveBalance,@SharePrice,@ParkingSlots"},
-		monochrome = true
+		plugin = {"json:target/cucumber.json","usage:target/cucumber-usage.json"},
+//plugin = {"json:target/cucumber.json","usage:target/cucumber-usage.json","com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-ExtendedReports/report.html"},
+		tags = {"@DemoPositive1,@DemoPositive2"}
+		//monochrome = true
 		)
 		//tags = {"@initial"})
 
-/*@ExtendedCucumberOptions(jsonReport = "target/cucumber.json",
+@ExtendedCucumberOptions(jsonReport = "target/cucumber.json",
 		retryCount = 3,
 		detailedReport = true,
 		detailedAggregatedReport = true,
@@ -64,13 +47,13 @@ import java.io.File;
 		jsonUsageReport = "target/cucumber-usage.json",
 		usageReport = true,
 		toPDF = true,
-		outputFolder = "target/cucumber-html-report")*/
+		outputFolder = "target/cucumber-html-report")
 
 public class RunCukesTest{
 
 	@AfterClass
 	public static void writeExtentReport() {
-		Reporter.loadXMLConfig(new File(System.getProperty("user.dir")+"\\src\\test\\resources\\extent-config.xml"));
+		Reporter.loadXMLConfig(new File(System.getProperty("user.dir")+"/src/test/resources/extent-config.xml"));
 		Reporter.setSystemInfo("User Name", System.getProperty("user.name"));
 		Reporter.setSystemInfo("Time Zone", System.getProperty("user.timezone"));
 		Reporter.setSystemInfo("Machine", 	"MAC" + "64 Bit");

@@ -1,0 +1,166 @@
+-------------------------------------------------------------------------------
+Test set: | 1) Head office | Normal Working Hours:8.30 am |
+-------------------------------------------------------------------------------
+Tests run: 37, Failures: 0, Errors: 8, Skipped: 1, Time elapsed: 253.609 sec <<< FAILURE! - in | 1) Head office | Normal Working Hours:8.30 am |
+When User sends Request Text "Long Leave Service"(| Long Leave Service | How many years are you with PACS? |)  Time elapsed: 0.011 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'android-75eb88ba1d0c23ef', ip: 'fe80:0:0:0:14b0:2962:b058:bad1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '9.0.4'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/user/Library/Develop..., appium-version: 1.7.2, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone X, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, noReset: false, platform: MAC, platformName: MAC, platformVersion: 11.2, takesScreenshot: true, udid: 3CED61F3-8492-4FA4-9826-F68..., webStorageEnabled: false}
+Session ID: 5921bef3-7524-419b-937d-203f4155e213
+*** Element info: {Using=xpath, value=(//XCUIElementTypeStaticText[@name="restChat"])[10]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:89)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:472)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:140)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElementByXPath(IOSDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at pageobjects.ChatPage.User_sends_ReqText(ChatPage.java:76)
+	at step_definitions.StepDefinitions.user_sends_Request_Text(StepDefinitions.java:156)
+	at ?.When User sends Request Text "Long Leave Service"(features/Login.feature:23)
+
+| Long Leave Service | How many years are you with PACS? |  Time elapsed: 0.016 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'android-75eb88ba1d0c23ef', ip: 'fe80:0:0:0:14b0:2962:b058:bad1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '9.0.4'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/user/Library/Develop..., appium-version: 1.7.2, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone X, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, noReset: false, platform: MAC, platformName: MAC, platformVersion: 11.2, takesScreenshot: true, udid: 3CED61F3-8492-4FA4-9826-F68..., webStorageEnabled: false}
+Session ID: 5921bef3-7524-419b-937d-203f4155e213
+*** Element info: {Using=xpath, value=(//XCUIElementTypeStaticText[@name="restChat"])[10]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:89)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:472)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:140)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElementByXPath(IOSDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at pageobjects.ChatPage.User_sends_ReqText(ChatPage.java:76)
+	at step_definitions.StepDefinitions.user_sends_Request_Text(StepDefinitions.java:156)
+	at ?.When User sends Request Text "Long Leave Service"(features/Login.feature:23)
+
+Then PruBuddy sends Response Text "Yes"(| 2) 10 years or longer | Yes |)  Time elapsed: 0.009 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ios: XCUITest] -> xpath: (//XCUIElementTypeStaticText[@name="restChat"])[3]] (tried for 20 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'android-75eb88ba1d0c23ef', ip: 'fe80:0:0:0:14b0:2962:b058:bad1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '9.0.4'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/user/Library/Develop..., appium-version: 1.7.2, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone X, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, noReset: false, platform: MAC, platformName: MAC, platformVersion: 11.2, takesScreenshot: true, udid: 3CED61F3-8492-4FA4-9826-F68..., webStorageEnabled: false}
+Session ID: 5921bef3-7524-419b-937d-203f4155e213
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at pageobjects.ChatPage.Prubuddy_Sends_Response(ChatPage.java:82)
+	at step_definitions.StepDefinitions.prubuddy_sends_Response_Text(StepDefinitions.java:162)
+	at ?.Then PruBuddy sends Response Text "Yes"(features/Login.feature:24)
+
+| 2) 10 years or longer | Yes |  Time elapsed: 0.011 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ios: XCUITest] -> xpath: (//XCUIElementTypeStaticText[@name="restChat"])[3]] (tried for 20 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'android-75eb88ba1d0c23ef', ip: 'fe80:0:0:0:14b0:2962:b058:bad1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '9.0.4'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/user/Library/Develop..., appium-version: 1.7.2, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone X, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, noReset: false, platform: MAC, platformName: MAC, platformVersion: 11.2, takesScreenshot: true, udid: 3CED61F3-8492-4FA4-9826-F68..., webStorageEnabled: false}
+Session ID: 5921bef3-7524-419b-937d-203f4155e213
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at pageobjects.ChatPage.Prubuddy_Sends_Response(ChatPage.java:82)
+	at step_definitions.StepDefinitions.prubuddy_sends_Response_Text(StepDefinitions.java:162)
+	at ?.Then PruBuddy sends Response Text "Yes"(features/Login.feature:24)
+
+Then PruBuddy sends Response Text "Are you working in head office or customer centre?"(| Working hours | Are you working in head office or customer centre? |)  Time elapsed: 0.001 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ios: XCUITest] -> xpath: (//XCUIElementTypeStaticText[@name="restChat"])[3]] (tried for 20 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'android-75eb88ba1d0c23ef', ip: 'fe80:0:0:0:14b0:2962:b058:bad1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '9.0.4'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/user/Library/Develop..., appium-version: 1.7.2, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone X, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, noReset: false, platform: MAC, platformName: MAC, platformVersion: 11.2, takesScreenshot: true, udid: 3CED61F3-8492-4FA4-9826-F68..., webStorageEnabled: false}
+Session ID: 5921bef3-7524-419b-937d-203f4155e213
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at pageobjects.ChatPage.Prubuddy_Sends_Response(ChatPage.java:82)
+	at step_definitions.StepDefinitions.prubuddy_sends_Response_Text(StepDefinitions.java:162)
+	at ?.Then PruBuddy sends Response Text "Are you working in head office or customer centre?"(features/Login.feature:24)
+
+| Working hours | Are you working in head office or customer centre? |  Time elapsed: 0.002 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ios: XCUITest] -> xpath: (//XCUIElementTypeStaticText[@name="restChat"])[3]] (tried for 20 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'android-75eb88ba1d0c23ef', ip: 'fe80:0:0:0:14b0:2962:b058:bad1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '9.0.4'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/user/Library/Develop..., appium-version: 1.7.2, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone X, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, noReset: false, platform: MAC, platformName: MAC, platformVersion: 11.2, takesScreenshot: true, udid: 3CED61F3-8492-4FA4-9826-F68..., webStorageEnabled: false}
+Session ID: 5921bef3-7524-419b-937d-203f4155e213
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at pageobjects.ChatPage.Prubuddy_Sends_Response(ChatPage.java:82)
+	at step_definitions.StepDefinitions.prubuddy_sends_Response_Text(StepDefinitions.java:162)
+	at ?.Then PruBuddy sends Response Text "Are you working in head office or customer centre?"(features/Login.feature:24)
+
+Then PruBuddy sends Response Text "Normal Working Hours:8.30 am"(| 1) Head office | Normal Working Hours:8.30 am |)  Time elapsed: 0.003 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ios: XCUITest] -> xpath: (//XCUIElementTypeStaticText[@name="restChat"])[3]] (tried for 20 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'android-75eb88ba1d0c23ef', ip: 'fe80:0:0:0:14b0:2962:b058:bad1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '9.0.4'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/user/Library/Develop..., appium-version: 1.7.2, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone X, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, noReset: false, platform: MAC, platformName: MAC, platformVersion: 11.2, takesScreenshot: true, udid: 3CED61F3-8492-4FA4-9826-F68..., webStorageEnabled: false}
+Session ID: 5921bef3-7524-419b-937d-203f4155e213
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at pageobjects.ChatPage.Prubuddy_Sends_Response(ChatPage.java:82)
+	at step_definitions.StepDefinitions.prubuddy_sends_Response_Text(StepDefinitions.java:162)
+	at ?.Then PruBuddy sends Response Text "Normal Working Hours:8.30 am"(features/Login.feature:24)
+
+| 1) Head office | Normal Working Hours:8.30 am |  Time elapsed: 0.003 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ios: XCUITest] -> xpath: (//XCUIElementTypeStaticText[@name="restChat"])[3]] (tried for 20 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'android-75eb88ba1d0c23ef', ip: 'fe80:0:0:0:14b0:2962:b058:bad1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '9.0.4'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/user/Library/Develop..., appium-version: 1.7.2, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone X, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, noReset: false, platform: MAC, platformName: MAC, platformVersion: 11.2, takesScreenshot: true, udid: 3CED61F3-8492-4FA4-9826-F68..., webStorageEnabled: false}
+Session ID: 5921bef3-7524-419b-937d-203f4155e213
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at pageobjects.ChatPage.Prubuddy_Sends_Response(ChatPage.java:82)
+	at step_definitions.StepDefinitions.prubuddy_sends_Response_Text(StepDefinitions.java:162)
+	at ?.Then PruBuddy sends Response Text "Normal Working Hours:8.30 am"(features/Login.feature:24)
+
