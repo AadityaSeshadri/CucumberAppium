@@ -1,48 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1dba0e0d-7052-4af2-9c21-8681c5f6a9a6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/cucumber-java-template.iml" afterPath="$PROJECT_DIR$/cucumber-java-template.iml" />
-      <change beforePath="$PROJECT_DIR$/log/log.html" afterPath="$PROJECT_DIR$/log/log.html" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/ChatPage.java" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/ChatPage.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/HomePage.java" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/HomePage.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/LoginPage.java" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/LoginPage.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/Hooks.java" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/Hooks.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/RunCukesTest.java" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/RunCukesTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/StepDefinitions.java" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/StepDefinitions.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ChatBox.feature" afterPath="$PROJECT_DIR$/src/test/resources/features/ChatBox.feature" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Others.feature" afterPath="$PROJECT_DIR$/src/test/resources/features/Others.feature" />
-      <change beforePath="$PROJECT_DIR$/target/10-chatbox-scenarios_user-request-for-leave-balance1522045927186.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/10-chatbox-scenarios_user-request-for-leave-balance1522045927187.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/10-chatbox-scenarios_user-request-for-leave-balance1522045927201.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/10-chatbox-scenarios_user-request-for-leave-balance1522045927208.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/20-chatbox-scenarios_user-request-for-share-price1522045927210.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/26-chatbox-scenarios_user-request-for-parking-slots1522045927213.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-ExtendedReports/report.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-results-feature-overview.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-results-feature-overview.html.bak.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-results-feature-overview.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-results-test-results.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-results-test-results.html.bak.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-results-test-results.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-usage.json" afterPath="$PROJECT_DIR$/target/cucumber-usage.json" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber.json" afterPath="$PROJECT_DIR$/target/cucumber.json" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Scenario: User Request for Parking Slots.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-Scenario: User Request for Parking Slots.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-step_definitions.RunCukesTest.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/step_definitions.RunCukesTest.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/ChatBox.feature" afterPath="$PROJECT_DIR$/target/test-classes/features/ChatBox.feature" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/ChatPage.class" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/ChatPage.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/HomePage.class" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/HomePage.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/LoginPage.class" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/LoginPage.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/step_definitions/Hooks.class" afterPath="$PROJECT_DIR$/target/test-classes/step_definitions/Hooks.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/step_definitions/RunCukesTest.class" afterPath="$PROJECT_DIR$/target/test-classes/step_definitions/RunCukesTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/step_definitions/StepDefinitions.class" afterPath="$PROJECT_DIR$/target/test-classes/step_definitions/StepDefinitions.class" />
-    </list>
+    <list default="true" id="1dba0e0d-7052-4af2-9c21-8681c5f6a9a6" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -132,7 +91,7 @@
       <file leaf-file-name="RunCukesTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/step_definitions/RunCukesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
+            <state relative-caret-position="720">
               <caret line="58" column="56" lean-forward="true" selection-start-line="58" selection-start-column="56" selection-end-line="58" selection-end-column="56" />
               <folding />
             </state>
@@ -197,7 +156,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="18" />
     <option name="y" value="23" />
     <option name="width" value="1405" />
@@ -475,7 +434,7 @@
       <workItem from="1522674683114" duration="21196000" />
       <workItem from="1522810280310" duration="12050000" />
       <workItem from="1522833903316" duration="34546000" />
-      <workItem from="1523263937977" duration="170000" />
+      <workItem from="1523263937977" duration="744000" />
     </task>
     <servers />
   </component>
@@ -512,10 +471,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71910000" />
+    <option name="totallyTimeSpent" value="72484000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="18" y="23" width="1405" height="782" extended-state="0" />
+    <frame x="18" y="23" width="1405" height="782" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -967,7 +926,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/step_definitions/RunCukesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
+        <state relative-caret-position="720">
           <caret line="58" column="56" lean-forward="true" selection-start-line="58" selection-start-column="56" selection-end-line="58" selection-end-column="56" />
           <folding />
         </state>
