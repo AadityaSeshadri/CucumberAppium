@@ -1,0 +1,7 @@
+./.idea
+./cucumber-jvm-template-master/.idea
+./log
+./node_modules
+./.DS_Store
+./Dockerfile
+./README.md
