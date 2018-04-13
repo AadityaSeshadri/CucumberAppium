@@ -61,7 +61,7 @@ public class Hooks{
         //Build the Appium service
         builder = new AppiumServiceBuilder();
         builder.withIPAddress("127.0.0.1");
-        builder.usingPort(4725);
+        builder.usingPort(4723);
         builder.withCapabilities(cap);
         builder.withArgument(GeneralServerFlag.SESSION_OVERRIDE);
         builder.withArgument(GeneralServerFlag.LOG_LEVEL,"error");
@@ -71,7 +71,7 @@ public class Hooks{
         service.start();
         System.out.println("successfully started");
     }
-    @Before("@DemoPositive1")
+    @Before("@LoginPositive,@LoginNegative")
     public void openBrowser(Scenario scenario) throws IOException, InterruptedException {
         Hooks.scenario = scenario;
         startServer();
@@ -88,66 +88,38 @@ public class Hooks{
         capabilities.setCapability("automationName", "XCUITest");
         capabilities.setCapability("deviceName", "iPhone X");
 
-        String appPath = "/Users/user/Library/Developer/Xcode/DerivedData/prutopia-bshhxtvrkfrofgazervrafchfnrm/Build/Products/Release-iphonesimulator/prutopia.app";
+        String appPath = "/Users/user/Library/Developer/Xcode/DerivedData/prutopia-bshhxtvrkfrofgazervrafchfnrm/Build/Products/Debug-iphonesimulator/prutopia.app";
 
         assert appPath != null: "Path to iOS app is not set";
         System.out.println("iOS App path: "+ appPath);
         capabilities.setCapability("app", appPath);
         //driver = new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
         //driver  = (AppiumDriver) new RemoteWebDriver(new URL("http://127.0.0.1:4723/wd/hub/"), capabilities);
-        driver = new IOSDriver(new URL("http://127.0.0.1:4725/wd/hub"), capabilities);
+        driver = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
         // driver = new RemoteWebDriver(new URL("http://127.0.0.1:4725/wd/hub"), capabilities);
         wait = new WebDriverWait(driver,20);
 
     }
 
 
-    //@After(order = 1)
+    @After(order = 1)
     public void embedScreenshot(Scenario scenario) {
 
-        /*if (scenario.isFailed()) {
+        if (scenario.isFailed()) {
             String screenshotName = scenario.getName().replaceAll(" ", "_");
             try {
-                //This takes a screenshot from the driver at save it to the specified location
                 File sourcePath = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-
-                //Building up the destination path for the screenshot to save
-                //Also make sure to create a folder 'screenshots' with in the cucumber-report folder
                 File destinationPath = new File(System.getProperty("user.dir") + "/target/cucumber-ExtendedReports/screenshots/" + screenshotName + ".png");
-
-                //Copy taken screenshot from source location to destination location
-                //FileUtils.copy(sourcePath, destinationPath);
                 FileUtils.copyFile(sourcePath, destinationPath);
-
-                //This attach the specified screenshot to the test
                 com.cucumber.listener.Reporter.addScreenCaptureFromPath(destinationPath.getAbsolutePath().toString());
-
-                //test.fail("Details", MediaEntityBuilder.createScreenCaptureFromPath(Paths.get("").toAbsolutePath().toString() + "/screenshotFolder/screenshot.png").build());
-                //driver.quit();
             } catch (IOException e) {
-            }
+                e.printStackTrace();
 
-        }*/
+            }
+        }
 
         //driver.quit();
     }
-    //@After(order = 0)
-  /*  public void AfterSteps() throws InterruptedException {
-
-      *//*  CucumberDetailedResults results = new CucumberDetailedResults();
-        results.setOutputDirectory("target/");
-        results.setOutputName("cucumber-results");
-        results.setSourceFile(System.getProperty("user.dir")+"/target/cucumber.json");
-       // Thread.sleep(2000);
-        try {
-            results.execute(true,true);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }*//*
-      //driver.quit();
-        driver.quit();
-        service.stop();
-}*/
 
 
 

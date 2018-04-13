@@ -14,40 +14,26 @@ import java.io.File;
 
 
 
-@RunWith(Cucumber.class)
+@RunWith(ExtendedCucumber.class)
 @ExtendedCucumberOptions(jsonReport = "target/cucumber.json",
 		retryCount = 0,
 		detailedReport = true,
-		detailedAggregatedReport = false,
+		detailedAggregatedReport = true,
 		overviewReport = true,
-		//coverageReport = true,
+		coverageReport = false,
 		jsonUsageReport = "target/cucumber-usage.json",
-		usageReport = false,
+		usageReport = true,
 		toPDF = true,
-		//excludeCoverageTags = {"@flaky" },
-		//includeCoverageTags = {"@Chatbox","@LeaveBalance","@SharePrice","@ParkingSlots"},
-		includeCoverageTags = {"@Chat"},
+		includeCoverageTags = {"@LoginNegative,@LoginPositive,@NavigateToPruBuddy,@PruBuddyChat"},
 		outputFolder = "target/")
 
 @CucumberOptions(
 		features = "classpath:features",
-		plugin = {"json:target/cucumber.json","usage:target/cucumber-usage.json"},
-//plugin = {"json:target/cucumber.json","usage:target/cucumber-usage.json","com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-ExtendedReports/report.html"},
-		tags = {"@DemoPositive1,@DemoPositive2"}
+		plugin = {"json:target/cucumber.json","usage:target/cucumber-usage.json","com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-ExtendedReports/report.html"},
+		tags = {"@LoginNegative,@LoginPositive,@NavigateToPruBuddy,@PruBuddyChat"}
 		//monochrome = true
 		)
-		//tags = {"@initial"})
 
-@ExtendedCucumberOptions(jsonReport = "target/cucumber.json",
-		retryCount = 3,
-		detailedReport = true,
-		detailedAggregatedReport = true,
-		overviewReport = true,
-		//coverageReport = true,
-		jsonUsageReport = "target/cucumber-usage.json",
-		usageReport = true,
-		toPDF = true,
-		outputFolder = "target/cucumber-html-report")
 
 public class RunCukesTest{
 

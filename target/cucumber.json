@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 14837464394,
+              "duration": 13659140602,
               "status": "passed"
             },
             "match": {
@@ -14,67 +14,63 @@
             }
           }
         ],
-        "line": 4,
+        "line": 13,
         "name": "Login to Prutopia App Navigate to Home Screen and Validate Home Page Elements",
         "description": "",
-        "id": "login-scenarios;login-to-prutopia-app-navigate-to-home-screen-and-validate-home-page-elements",
+        "id": "1login;login-to-prutopia-app-navigate-to-home-screen-and-validate-home-page-elements;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 88941,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 202541066,
+              "duration": 15600864533,
               "status": "passed"
             },
             "line": 5,
-            "name": "User Opens Prutopia Application",
-            "match": {
-              "location": "StepDefinitions.user_Opens_Prutopia_Application()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 61838,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "User should be able to see Splash Screen",
-            "match": {
-              "location": "StepDefinitions.user_should_be_able_to_see_Splash_Screen()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 5880873472,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "User is navigated to Azure Directory for Login",
+            "name": "User Opens Prutopia Application and navigated to Azure Directory for Login",
             "match": {
               "location": "StepDefinitions.user_is_navigated_to_Azure_Directory_for_Login()"
             },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 4394418953,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "User Enters Username",
-            "match": {
-              "location": "StepDefinitions.user_Enters_Username()"
-            },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 4046114970,
+              "duration": 5022780291,
               "status": "passed"
             },
-            "line": 9,
+            "line": 6,
+            "name": "User Enters Username \"prutopia@azurepaloit.onmicrosoft.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "prutopia@azurepaloit.onmicrosoft.com",
+                  "offset": 22
+                }
+              ],
+              "location": "StepDefinitions.user_Enters_Username(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3089885177,
+              "status": "passed"
+            },
+            "line": 7,
             "name": "User Clicks on Next Button",
             "match": {
               "location": "StepDefinitions.user_Clicks_on_Next_Button()"
@@ -83,22 +79,31 @@
           },
           {
             "result": {
-              "duration": 8795166841,
+              "duration": 8568775044,
               "status": "passed"
             },
-            "line": 10,
-            "name": "User Enters Password",
+            "line": 8,
+            "name": "User Enters Password \"WrongPassword\"",
             "match": {
-              "location": "StepDefinitions.user_Enters_Password()"
+              "arguments": [
+                {
+                  "val": "WrongPassword",
+                  "offset": 22
+                }
+              ],
+              "location": "StepDefinitions.user_Enters_Password(String)"
             },
+            "matchedColumns": [
+              1
+            ],
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1924244731,
+              "duration": 1747057116,
               "status": "passed"
             },
-            "line": 11,
+            "line": 9,
             "name": "User Clicks on Sign in Button",
             "match": {
               "location": "StepDefinitions.user_Clicks_on_Sign_in_Button()"
@@ -107,10 +112,138 @@
           },
           {
             "result": {
-              "duration": 5436482114,
+              "duration": 4057379327,
               "status": "passed"
             },
-            "line": 12,
+            "line": 10,
+            "name": "User is able to see Login Error Message",
+            "match": {
+              "location": "StepDefinitions.User_is_able_to_see_Login_Error_Message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@LoginNegative"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10239462731,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser(Scenario)"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Login to Prutopia App Navigate to Home Screen and Validate Home Page Elements",
+        "description": "",
+        "id": "1login;login-to-prutopia-app-navigate-to-home-screen-and-validate-home-page-elements;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 71096,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8658457991,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User Opens Prutopia Application and navigated to Azure Directory for Login",
+            "match": {
+              "location": "StepDefinitions.user_is_navigated_to_Azure_Directory_for_Login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4404184056,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User Enters Username \"prutopia@azurepaloit.onmicrosoft.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "prutopia@azurepaloit.onmicrosoft.com",
+                  "offset": 22
+                }
+              ],
+              "location": "StepDefinitions.user_Enters_Username(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2969941595,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User Clicks on Next Button",
+            "match": {
+              "location": "StepDefinitions.user_Clicks_on_Next_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8095009621,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User Enters Password \"Hugu81801\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hugu81801",
+                  "offset": 22
+                }
+              ],
+              "location": "StepDefinitions.user_Enters_Password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1762465307,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User Clicks on Sign in Button",
+            "match": {
+              "location": "StepDefinitions.user_Clicks_on_Sign_in_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5171930341,
+              "status": "passed"
+            },
+            "line": 23,
             "name": "User is Navigated to Home Page of the Application",
             "match": {
               "location": "StepDefinitions.user_is_Navigated_to_Home_Page_of_the_Application()"
@@ -119,10 +252,10 @@
           },
           {
             "result": {
-              "duration": 2854945255,
+              "duration": 1916127412,
               "status": "passed"
             },
-            "line": 13,
+            "line": 24,
             "name": "Elements in Home Page are Validated",
             "match": {
               "location": "StepDefinitions.elements_in_Home_Page_are_Validated()"
@@ -132,25 +265,46 @@
         ],
         "tags": [
           {
-            "line": 3,
-            "name": "@DemoPositive1"
+            "line": 16,
+            "name": "@LoginPositive"
           }
         ]
-      },
+      }
+    ],
+    "name": "1Login",
+    "description": "",
+    "id": "1login",
+    "keyword": "Feature",
+    "uri": "features/1Login.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
       {
-        "line": 17,
+        "line": 4,
         "name": "Navigating to PruBuddy and Perform Chat",
         "description": "",
-        "id": "login-scenarios;navigating-to-prubuddy-and-perform-chat",
+        "id": "chatbox-scenarios;navigating-to-prubuddy-and-perform-chat",
+        "after": [
+          {
+            "result": {
+              "duration": 87955,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 3078870351,
+              "duration": 6853784113,
               "status": "passed"
             },
-            "line": 18,
+            "line": 5,
             "name": "User Clicks on the Chat Icon at Bottom of Home Page",
             "match": {
               "location": "StepDefinitions.user_Clicks_on_the_Chat_Icon_at_Bottom_of_Home_Page()"
@@ -159,10 +313,10 @@
           },
           {
             "result": {
-              "duration": 3170566377,
+              "duration": 1358993051,
               "status": "passed"
             },
-            "line": 19,
+            "line": 6,
             "name": "User is navigated to the Chat Page of the Application",
             "match": {
               "location": "StepDefinitions.user_is_navigated_to_the_Chat_Page_of_the_Application()"
@@ -172,25 +326,36 @@
         ],
         "tags": [
           {
-            "line": 16,
-            "name": "@DemoPositive2"
+            "line": 3,
+            "name": "@NavigateToPruBuddy"
           }
         ]
       },
       {
-        "line": 28,
+        "line": 14,
         "name": "User Chats and Validates Response from  Virtual Assistant",
         "description": "",
-        "id": "login-scenarios;user-chats-and-validates-response-from--virtual-assistant;;2",
+        "id": "chatbox-scenarios;user-chats-and-validates-response-from--virtual-assistant;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 127097,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 10499608179,
+              "duration": 9224005983,
               "status": "passed"
             },
-            "line": 23,
+            "line": 10,
             "name": "User sends Request Text \"Hi\"",
             "match": {
               "arguments": [
@@ -208,10 +373,10 @@
           },
           {
             "result": {
-              "duration": 3027064953,
+              "duration": 106271,
               "status": "passed"
             },
-            "line": 24,
+            "line": 11,
             "name": "PruBuddy sends Response Text \"Hello, I am PRUBuddy,  your virtual assistant\"",
             "match": {
               "arguments": [
@@ -230,25 +395,36 @@
         ],
         "tags": [
           {
-            "line": 21,
-            "name": "@DemoPositive2"
+            "line": 8,
+            "name": "@PruBuddyChat"
           }
         ]
       },
       {
-        "line": 29,
+        "line": 15,
         "name": "User Chats and Validates Response from  Virtual Assistant",
         "description": "",
-        "id": "login-scenarios;user-chats-and-validates-response-from--virtual-assistant;;3",
+        "id": "chatbox-scenarios;user-chats-and-validates-response-from--virtual-assistant;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 95876,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 11579682476,
+              "duration": 11916800845,
               "status": "passed"
             },
-            "line": 23,
+            "line": 10,
             "name": "User sends Request Text \"My Leave\"",
             "match": {
               "arguments": [
@@ -266,10 +442,10 @@
           },
           {
             "result": {
-              "duration": 3257303613,
+              "duration": 102400,
               "status": "passed"
             },
-            "line": 24,
+            "line": 11,
             "name": "PruBuddy sends Response Text \"May I know what is your job level?\"",
             "match": {
               "arguments": [
@@ -288,25 +464,36 @@
         ],
         "tags": [
           {
-            "line": 21,
-            "name": "@DemoPositive2"
+            "line": 8,
+            "name": "@PruBuddyChat"
           }
         ]
       },
       {
-        "line": 30,
+        "line": 16,
         "name": "User Chats and Validates Response from  Virtual Assistant",
         "description": "",
-        "id": "login-scenarios;user-chats-and-validates-response-from--virtual-assistant;;4",
+        "id": "chatbox-scenarios;user-chats-and-validates-response-from--virtual-assistant;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 131831,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 12663442556,
+              "duration": 12610179303,
               "status": "passed"
             },
-            "line": 23,
+            "line": 10,
             "name": "User sends Request Text \"Senior Manager\"",
             "match": {
               "arguments": [
@@ -324,10 +511,10 @@
           },
           {
             "result": {
-              "duration": 3617063877,
+              "duration": 98344,
               "status": "passed"
             },
-            "line": 24,
+            "line": 11,
             "name": "PruBuddy sends Response Text \"Yes or No\"",
             "match": {
               "arguments": [
@@ -346,25 +533,36 @@
         ],
         "tags": [
           {
-            "line": 21,
-            "name": "@DemoPositive2"
+            "line": 8,
+            "name": "@PruBuddyChat"
           }
         ]
       },
       {
-        "line": 31,
+        "line": 17,
         "name": "User Chats and Validates Response from  Virtual Assistant",
         "description": "",
-        "id": "login-scenarios;user-chats-and-validates-response-from--virtual-assistant;;5",
+        "id": "chatbox-scenarios;user-chats-and-validates-response-from--virtual-assistant;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 148833,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 13115125378,
+              "duration": 12875014413,
               "status": "passed"
             },
-            "line": 23,
+            "line": 10,
             "name": "User sends Request Text \"Yes\"",
             "match": {
               "arguments": [
@@ -382,10 +580,10 @@
           },
           {
             "result": {
-              "duration": 3749994814,
+              "duration": 81443,
               "status": "passed"
             },
-            "line": 24,
+            "line": 11,
             "name": "PruBuddy sends Response Text \"You are entitled to 22 days of leave per annum\"",
             "match": {
               "arguments": [
@@ -404,26 +602,36 @@
         ],
         "tags": [
           {
-            "line": 21,
-            "name": "@DemoPositive2"
+            "line": 8,
+            "name": "@PruBuddyChat"
           }
         ]
       },
       {
-        "line": 32,
+        "line": 18,
         "name": "User Chats and Validates Response from  Virtual Assistant",
         "description": "",
-        "id": "login-scenarios;user-chats-and-validates-response-from--virtual-assistant;;6",
+        "id": "chatbox-scenarios;user-chats-and-validates-response-from--virtual-assistant;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 138155,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 13643344947,
-              "error_message": "org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.7.1\u0027, revision: \u00278a0099a\u0027, time: \u00272017-11-06T21:01:39.354Z\u0027\nSystem info: host: \u0027android-75eb88ba1d0c23ef\u0027, ip: \u0027fe80:0:0:0:14b0:2962:b058:bad1%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.13.3\u0027, java.version: \u00279.0.4\u0027\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/user/Library/Develop..., appium-version: 1.7.2, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone X, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, noReset: false, platform: MAC, platformName: MAC, platformVersion: 11.2, takesScreenshot: true, udid: 3CED61F3-8492-4FA4-9826-F68..., webStorageEnabled: false}\nSession ID: 5921bef3-7524-419b-937d-203f4155e213\n*** Element info: {Using\u003dxpath, value\u003d(//XCUIElementTypeStaticText[@name\u003d\"restChat\"])[10]}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\n\tat io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:89)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\n\tat io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)\n\tat io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)\n\tat io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)\n\tat io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)\n\tat io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:472)\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:140)\n\tat io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)\n\tat io.appium.java_client.ios.IOSDriver.findElementByXPath(IOSDriver.java:1)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)\n\tat io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)\n\tat io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)\n\tat pageobjects.ChatPage.User_sends_ReqText(ChatPage.java:76)\n\tat step_definitions.StepDefinitions.user_sends_Request_Text(StepDefinitions.java:156)\n\tat ✽.When User sends Request Text \"Long Leave Service\"(features/Login.feature:23)\n",
-              "status": "failed"
+              "duration": 14097662042,
+              "status": "passed"
             },
-            "line": 23,
+            "line": 10,
             "name": "User sends Request Text \"Long Leave Service\"",
             "match": {
               "arguments": [
@@ -441,9 +649,10 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 99384,
+              "status": "passed"
             },
-            "line": 24,
+            "line": 11,
             "name": "PruBuddy sends Response Text \"How many years are you with PACS?\"",
             "match": {
               "arguments": [
@@ -462,30 +671,41 @@
         ],
         "tags": [
           {
-            "line": 21,
-            "name": "@DemoPositive2"
+            "line": 8,
+            "name": "@PruBuddyChat"
           }
         ]
       },
       {
-        "line": 33,
+        "line": 19,
         "name": "User Chats and Validates Response from  Virtual Assistant",
         "description": "",
-        "id": "login-scenarios;user-chats-and-validates-response-from--virtual-assistant;;7",
+        "id": "chatbox-scenarios;user-chats-and-validates-response-from--virtual-assistant;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 138147,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 16088397139,
+              "duration": 15092527162,
               "status": "passed"
             },
-            "line": 23,
-            "name": "User sends Request Text \"2) 10 years or longer\"",
+            "line": 10,
+            "name": "User sends Request Text \"10 years or longer\"",
             "match": {
               "arguments": [
                 {
-                  "val": "2) 10 years or longer",
+                  "val": "10 years or longer",
                   "offset": 25
                 }
               ],
@@ -498,11 +718,10 @@
           },
           {
             "result": {
-              "duration": 24287758441,
-              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ios: XCUITest] -\u003e xpath: (//XCUIElementTypeStaticText[@name\u003d\"restChat\"])[3]] (tried for 20 second(s) with 500 MILLISECONDS interval)\nBuild info: version: \u00273.7.1\u0027, revision: \u00278a0099a\u0027, time: \u00272017-11-06T21:01:39.354Z\u0027\nSystem info: host: \u0027android-75eb88ba1d0c23ef\u0027, ip: \u0027fe80:0:0:0:14b0:2962:b058:bad1%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.13.3\u0027, java.version: \u00279.0.4\u0027\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/user/Library/Develop..., appium-version: 1.7.2, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone X, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, noReset: false, platform: MAC, platformName: MAC, platformVersion: 11.2, takesScreenshot: true, udid: 3CED61F3-8492-4FA4-9826-F68..., webStorageEnabled: false}\nSession ID: 5921bef3-7524-419b-937d-203f4155e213\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)\n\tat pageobjects.ChatPage.Prubuddy_Sends_Response(ChatPage.java:82)\n\tat step_definitions.StepDefinitions.prubuddy_sends_Response_Text(StepDefinitions.java:162)\n\tat ✽.Then PruBuddy sends Response Text \"Yes\"(features/Login.feature:24)\n",
-              "status": "failed"
+              "duration": 69745,
+              "status": "passed"
             },
-            "line": 24,
+            "line": 11,
             "name": "PruBuddy sends Response Text \"Yes\"",
             "match": {
               "arguments": [
@@ -521,25 +740,36 @@
         ],
         "tags": [
           {
-            "line": 21,
-            "name": "@DemoPositive2"
+            "line": 8,
+            "name": "@PruBuddyChat"
           }
         ]
       },
       {
-        "line": 34,
+        "line": 20,
         "name": "User Chats and Validates Response from  Virtual Assistant",
         "description": "",
-        "id": "login-scenarios;user-chats-and-validates-response-from--virtual-assistant;;8",
+        "id": "chatbox-scenarios;user-chats-and-validates-response-from--virtual-assistant;;8",
+        "after": [
+          {
+            "result": {
+              "duration": 135126,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 16302926969,
+              "duration": 15764761317,
               "status": "passed"
             },
-            "line": 23,
+            "line": 10,
             "name": "User sends Request Text \"Working hours\"",
             "match": {
               "arguments": [
@@ -557,11 +787,10 @@
           },
           {
             "result": {
-              "duration": 24553085031,
-              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ios: XCUITest] -\u003e xpath: (//XCUIElementTypeStaticText[@name\u003d\"restChat\"])[3]] (tried for 20 second(s) with 500 MILLISECONDS interval)\nBuild info: version: \u00273.7.1\u0027, revision: \u00278a0099a\u0027, time: \u00272017-11-06T21:01:39.354Z\u0027\nSystem info: host: \u0027android-75eb88ba1d0c23ef\u0027, ip: \u0027fe80:0:0:0:14b0:2962:b058:bad1%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.13.3\u0027, java.version: \u00279.0.4\u0027\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/user/Library/Develop..., appium-version: 1.7.2, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone X, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, noReset: false, platform: MAC, platformName: MAC, platformVersion: 11.2, takesScreenshot: true, udid: 3CED61F3-8492-4FA4-9826-F68..., webStorageEnabled: false}\nSession ID: 5921bef3-7524-419b-937d-203f4155e213\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)\n\tat pageobjects.ChatPage.Prubuddy_Sends_Response(ChatPage.java:82)\n\tat step_definitions.StepDefinitions.prubuddy_sends_Response_Text(StepDefinitions.java:162)\n\tat ✽.Then PruBuddy sends Response Text \"Are you working in head office or customer centre?\"(features/Login.feature:24)\n",
-              "status": "failed"
+              "duration": 103538,
+              "status": "passed"
             },
-            "line": 24,
+            "line": 11,
             "name": "PruBuddy sends Response Text \"Are you working in head office or customer centre?\"",
             "match": {
               "arguments": [
@@ -580,30 +809,41 @@
         ],
         "tags": [
           {
-            "line": 21,
-            "name": "@DemoPositive2"
+            "line": 8,
+            "name": "@PruBuddyChat"
           }
         ]
       },
       {
-        "line": 35,
+        "line": 21,
         "name": "User Chats and Validates Response from  Virtual Assistant",
         "description": "",
-        "id": "login-scenarios;user-chats-and-validates-response-from--virtual-assistant;;9",
+        "id": "chatbox-scenarios;user-chats-and-validates-response-from--virtual-assistant;;9",
+        "after": [
+          {
+            "result": {
+              "duration": 127889,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 17199028801,
+              "duration": 16427741623,
               "status": "passed"
             },
-            "line": 23,
-            "name": "User sends Request Text \"1) Head office\"",
+            "line": 10,
+            "name": "User sends Request Text \"Head office\"",
             "match": {
               "arguments": [
                 {
-                  "val": "1) Head office",
+                  "val": "Head office",
                   "offset": 25
                 }
               ],
@@ -616,11 +856,10 @@
           },
           {
             "result": {
-              "duration": 25140724106,
-              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ios: XCUITest] -\u003e xpath: (//XCUIElementTypeStaticText[@name\u003d\"restChat\"])[3]] (tried for 20 second(s) with 500 MILLISECONDS interval)\nBuild info: version: \u00273.7.1\u0027, revision: \u00278a0099a\u0027, time: \u00272017-11-06T21:01:39.354Z\u0027\nSystem info: host: \u0027android-75eb88ba1d0c23ef\u0027, ip: \u0027fe80:0:0:0:14b0:2962:b058:bad1%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.13.3\u0027, java.version: \u00279.0.4\u0027\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/user/Library/Develop..., appium-version: 1.7.2, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone X, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, noReset: false, platform: MAC, platformName: MAC, platformVersion: 11.2, takesScreenshot: true, udid: 3CED61F3-8492-4FA4-9826-F68..., webStorageEnabled: false}\nSession ID: 5921bef3-7524-419b-937d-203f4155e213\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)\n\tat pageobjects.ChatPage.Prubuddy_Sends_Response(ChatPage.java:82)\n\tat step_definitions.StepDefinitions.prubuddy_sends_Response_Text(StepDefinitions.java:162)\n\tat ✽.Then PruBuddy sends Response Text \"Normal Working Hours:8.30 am\"(features/Login.feature:24)\n",
-              "status": "failed"
+              "duration": 110788,
+              "status": "passed"
             },
-            "line": 24,
+            "line": 11,
             "name": "PruBuddy sends Response Text \"Normal Working Hours:8.30 am\"",
             "match": {
               "arguments": [
@@ -639,16 +878,292 @@
         ],
         "tags": [
           {
-            "line": 21,
-            "name": "@DemoPositive2"
+            "line": 8,
+            "name": "@PruBuddyChat"
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "User Chats and Validates Response from  Virtual Assistant",
+        "description": "",
+        "id": "chatbox-scenarios;user-chats-and-validates-response-from--virtual-assistant;;10",
+        "after": [
+          {
+            "result": {
+              "duration": 236840,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17784164221,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User sends Request Text \"Annual wage Supplement\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Annual wage Supplement",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinitions.user_sends_Request_Text(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 141514,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "PruBuddy sends Response Text \"Annual wage Supplement\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Annual wage Supplement",
+                  "offset": 30
+                }
+              ],
+              "location": "StepDefinitions.prubuddy_sends_Response_Text(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@PruBuddyChat"
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "User Chats and Validates Response from  Virtual Assistant",
+        "description": "",
+        "id": "chatbox-scenarios;user-chats-and-validates-response-from--virtual-assistant;;11",
+        "after": [
+          {
+            "result": {
+              "duration": 155773,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18716389538,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User sends Request Text \"My Travel Benifits\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "My Travel Benifits",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinitions.user_sends_Request_Text(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 103380,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "PruBuddy sends Response Text \"job Level\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "job Level",
+                  "offset": 30
+                }
+              ],
+              "location": "StepDefinitions.prubuddy_sends_Response_Text(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@PruBuddyChat"
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "User Chats and Validates Response from  Virtual Assistant",
+        "description": "",
+        "id": "chatbox-scenarios;user-chats-and-validates-response-from--virtual-assistant;;12",
+        "after": [
+          {
+            "result": {
+              "duration": 147829,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 19513897382,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User sends Request Text \"Associate VP \u0026 Below\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Associate VP \u0026 Below",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinitions.user_sends_Request_Text(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 114004,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "PruBuddy sends Response Text \"airline\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "airline",
+                  "offset": 30
+                }
+              ],
+              "location": "StepDefinitions.prubuddy_sends_Response_Text(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@PruBuddyChat"
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "User Chats and Validates Response from  Virtual Assistant",
+        "description": "",
+        "id": "chatbox-scenarios;user-chats-and-validates-response-from--virtual-assistant;;13",
+        "after": [
+          {
+            "result": {
+              "duration": 142042,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 20471384850,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User sends Request Text \"Who is my Hr Partner\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Who is my Hr Partner",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinitions.user_sends_Request_Text(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 113335,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "PruBuddy sends Response Text \"HR-related matters\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "HR-related matters",
+                  "offset": 30
+                }
+              ],
+              "location": "StepDefinitions.prubuddy_sends_Response_Text(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@PruBuddyChat"
           }
         ]
       }
     ],
-    "name": "Login Scenarios",
+    "name": "ChatBox Scenarios",
     "description": "",
-    "id": "login-scenarios",
+    "id": "chatbox-scenarios",
     "keyword": "Feature",
-    "uri": "features/Login.feature"
+    "uri": "features/2ChatBox.feature"
   }
 ]

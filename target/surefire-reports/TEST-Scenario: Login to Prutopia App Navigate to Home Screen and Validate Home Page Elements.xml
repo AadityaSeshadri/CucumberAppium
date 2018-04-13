@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: Login to Prutopia App Navigate to Home Screen and Validate Home Page Elements" time="0.031" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="9.0.4+11"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/user/Documents/CucumberAppium_Dev"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="user.country" value="SG"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/user/Documents/CucumberAppium_Dev"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="9.0.4+11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/5p/_0ss2zkd615gt4l3l_rcfqq00000gp/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.5.2/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/user/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.5.2/libexec/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="53.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.13.3"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.5.2/libexec/lib/jansi-native"/>
+    <property name="user.home" value="/Users/user"/>
+    <property name="user.timezone" value="Asia/Singapore"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="file.encoding" value="US-ASCII"/>
+    <property name="java.specification.version" value="9"/>
+    <property name="user.name" value="user"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.5.2/libexec/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="9"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="9.0.4"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.5.2/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="When User Opens Prutopia Application and navigated to Azure Directory for Login" classname="Scenario: Login to Prutopia App Navigate to Home Screen and Validate Home Page Elements" time="0.031">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:301)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:284)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	at pageobjects.LoginPage.user_is_navigated_to_Azure_Directory_for_Login(LoginPage.java:71)
+	at step_definitions.StepDefinitions.user_is_navigated_to_Azure_Directory_for_Login(StepDefinitions.java:59)
+	at ✽.When User Opens Prutopia Application and navigated to Azure Directory for Login(features/1Login.feature:5)
+</error>
+    <system-out><![CDATA[Running Feature child (scenario)...
+Begin scenario run...
+successfully started
+iOS App path: /Users/user/Library/Developer/Xcode/DerivedData/prutopia-bshhxtvrkfrofgazervrafchfnrm/Build/Products/Debug-iphonesimulator/prutopia.app
+[HTTP] Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
+uncaughtException: listen EADDRINUSE 127.0.0.1:4723
+	{"date":"Fri Apr 13 2018 10:49:10 GMT+0800 (+08)","process":{"pid":42714,"uid":502,"gid":20,"cwd":"/Users/user/Documents/CucumberAppium_Dev","execPath":"/usr/local/bin/node","version":"v8.10.0","argv":["/usr/local/bin/node","/usr/local/lib/node_modules/appium/build/lib/main.js","--port","4723","--address","127.0.0.1","--log-level","error","--session-override","--default-capabilities","{\"noReset\": \"false\"}"],"memoryUsage":{"rss":141860864,"heapTotal":115838976,"heapUsed":83784984,"external":176722}},"os":{"loadavg":[3.16064453125,2.97509765625,2.41162109375],"uptime":343684},"trace":[{"column":11,"file":"util.js","function":"Object._errnoException","line":1022,"method":"_errnoException","native":false},{"column":20,"file":"util.js","function":"_exceptionWithHostPort","line":1044,"method":null,"native":false},{"column":14,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1367,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1408,"method":null,"native":false},{"column":7,"file":"net.js","function":"doListen","line":1517,"method":null,"native":false},{"column":11,"file":"internal/process/next_tick.js","function":"_combinedTickCallback","line":141,"method":null,"native":false},{"column":9,"file":"internal/process/next_tick.js","function":"process._tickCallback","line":180,"method":"_tickCallback","native":false}],"stack":["Error: listen EADDRINUSE 127.0.0.1:4723","    at Object._errnoException (util.js:1022:11)","    at _exceptionWithHostPort (util.js:1044:20)","    at Server.setupListenHandle [as _listen2] (net.js:1367:14)","    at listenInCluster (net.js:1408:12)","    at doListen (net.js:1517:7)","    at _combinedTickCallback (internal/process/next_tick.js:141:11)","    at process._tickCallback (internal/process/next_tick.js:180:9)"]}
+**************1******************
+**************2******************
+]]></system-out>
+    <system-err><![CDATA[log4j:WARN No appenders could be found for logger (helpers.Log).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Apr 13, 2018 10:49:16 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+</testsuite>

@@ -4,8 +4,11 @@ package pageobjects;
 import cucumber.api.Scenario;
 import helpers.Log;
 import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.MobileBy;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.ios.IOSDriver;
+import io.appium.java_client.pagefactory.AppiumFieldDecorator;
+import io.appium.java_client.pagefactory.iOSFindBy;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
 import io.appium.java_client.service.local.AppiumServiceBuilder;
 import io.appium.java_client.service.local.flags.GeneralServerFlag;
@@ -28,116 +31,115 @@ import java.io.File;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.concurrent.TimeUnit;
 
 //import static com.sun.tools.doclint.Entity.cap;
 
 //public class LoginPage extends BaseClass{
 
 	public class LoginPage {
-		public  static WebDriver driver;
-		public static WebDriverWait wait = Hooks.wait;
+	    //*********Variable Declarations*******************************
+		public   WebDriver driver;
+		public  WebDriverWait wait ;
+
+        //*********Page Elements***************************************
+		@iOSFindBy(xpath = "//XCUIElementTypeOther[@name=\"LOG IN USING YOUR PRUDENTIAL CREDENTIALS\"]/XCUIElementTypeOther")
+	    public  MobileElement Lbl_Login_Text;
+
+		@iOSFindBy(xpath = "//XCUIElementTypeStaticText[@name=\"LOG IN USING YOUR PRUDENTIAL CREDENTIALS\"]")
+		public  MobileElement Lbl_Login_Text1;
 
 
+		@iOSFindBy(accessibility = "Enter your email, phone, or Skype.")
+		public  MobileElement Txt_Email;
+
+		@iOSFindBy(xpath = "(//XCUIElementTypeButton[@name=\"Next\"])[1]")
+		public  MobileElement Btn_Next;
+
+		@iOSFindBy(xpath = "//XCUIElementTypeSecureTextField[@name=\"Enter password\"]")
+		public  MobileElement Txt_Password;
+
+		@iOSFindBy(accessibility = "Sign in")
+		public  MobileElement Btn_SignIn;
+
+        @iOSFindBy(accessibility = "Your account or password is incorrect. If you don't remember your password,")
+        public  MobileElement Lbl_ErrorMessage;
 
 
-	@FindBy(how=How.XPATH, using="//input[@id='email']")
-	public static WebElement Txt_User_Name;
-	
-	@FindBy(how=How.XPATH, using="//input[@id='pass']")
-	//@FindBy(how=How.ID, using="pass")
-	public static WebElement Txt_password;
-	
-	@FindBy(how=How.XPATH, using="//input[@value='Log In']")
-	public static WebElement signin_button;
+		@iOSFindBy(xpath = "//XCUIElementTypeStaticText[@name=\"navBarTitle\"]")
+		public  MobileElement Txt_PageTitle;
 
-		public static void user_Opens_Prutopia_Application(AppiumDriver driver,Scenario scenario) throws MalformedURLException {
+		@iOSFindBy(accessibility = "Message from Wilf")
+		public  MobileElement Txt_Blk1_Mss1;
 
-			Assert.assertTrue(true);
+		@iOSFindBy(accessibility = "Thank you for your commitment in 2017")
+		public  MobileElement Txt_Blk1_Mss2;
 
+		@iOSFindBy(xpath = "(//XCUIElementTypeOther[@name=\"4.pruTopia.NewsScreen\"])[6]")
+		public  MobileElement Icon_Chat;
+
+		public LoginPage()
+		{
+			driver = Hooks.driver;
+			wait = Hooks.wait;
+			PageFactory.initElements(new AppiumFieldDecorator(driver, 15, TimeUnit.SECONDS), this);
+		}
+        //*********Page Methods***************************************
+		public  void user_is_navigated_to_Azure_Directory_for_Login(AppiumDriver driver,Scenario scenario) {
+            wait.until(ExpectedConditions.visibilityOf(Lbl_Login_Text));
+			Assert.assertTrue(Lbl_Login_Text1.getAttribute("value").contains("LOG IN USING YOUR PRUDENTIAL CREDENTIALS"));
+			Lbl_Login_Text.click();
+			wait.until(ExpectedConditions.elementToBeClickable(Txt_Email));
 		}
 
-		public static void user_should_be_able_to_see_Splash_Screen(AppiumDriver driver,Scenario scenario) {
-			Assert.assertTrue(true);
-		}
-
-		public static void user_is_navigated_to_Azure_Directory_for_Login(AppiumDriver driver,Scenario scenario) {
-			//wait =new WebDriverWait(driver, 20);
-
-			wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//XCUIElementTypeOther[@name=\"banner\"]")));
-			//wait.until(ExpectedConditions.presenceOfElementLocated(By.id("banner")));
-
-		}
-
-		public static void user_Enters_Username(AppiumDriver driver,Scenario scenario) {
-			MobileElement txtEmailID = (MobileElement) driver.findElementByAccessibilityId("Enter your email, phone, or Skype.");
-			if (txtEmailID.isDisplayed())
+		public  void user_Enters_Username(AppiumDriver driver,Scenario scenario,String Uname) {
+			if (Txt_Email.isDisplayed())
 			{
-				//txtEmailID.click();
-				txtEmailID.setValue("alexmin@monkeyking.onmicrosoft.com");
-
+				Txt_Email.sendKeys(Uname);
 			}
 		}
 
-		public static void user_Clicks_on_Next_Button(AppiumDriver driver,Scenario scenario) {
-			MobileElement el1 = (MobileElement) driver.findElementByXPath("(//XCUIElementTypeButton[@name=\"Next\"])[1]");
-			//MobileElement el1 = (MobileElement) driver.findElementByAccessibilityId("Next");
-			el1.click();
+		public  void user_Clicks_on_Next_Button(AppiumDriver driver,Scenario scenario) {
+		    Btn_Next.click();
 		}
 
-		public static void user_Enters_Password(AppiumDriver driver,Scenario scenario) {
-			//wait =new WebDriverWait(driver, 20);
-			wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//XCUIElementTypeSecureTextField[@name=\"Enter password\"]")));
-
-			MobileElement el2 = (MobileElement) driver.findElementByXPath("//XCUIElementTypeSecureTextField[@name=\"Enter password\"]");
-			el2.sendKeys("Muyu49851");
+		public  void user_Enters_Password(AppiumDriver driver,Scenario scenario,String Pwd) {
+            //System.out.println("Pwd" + Pwd);
+            wait.until(ExpectedConditions.elementToBeClickable(Txt_Password));
+			Txt_Password.setValue(Pwd);
 		}
 
-		public static void user_Clicks_on_Sign_in_Button(AppiumDriver driver,Scenario scenario) {
-			MobileElement el3 = (MobileElement) driver.findElementByAccessibilityId("Sign in");
-			el3.click();
+		public  void user_Clicks_on_Sign_in_Button(AppiumDriver driver,Scenario scenario) {
+            Btn_SignIn.click();
 		}
 
-		public static void user_is_Navigated_to_Home_Page_of_the_Application(AppiumDriver driver,Scenario scenario) {
-			//wait =new WebDriverWait(driver, 20);
-			wait.until(ExpectedConditions.attributeContains(By.xpath("//XCUIElementTypeStaticText[@name=\"navBarTitle\"]"),"value","News"));
+		public  void user_is_Navigated_to_Home_Page_of_the_Application(AppiumDriver driver,Scenario scenario) {
+            wait.until(ExpectedConditions.attributeContains(Txt_PageTitle,"value","PRUtopia"));
 		}
 
-		public static void elements_in_Home_Page_are_Validated(AppiumDriver driver,Scenario scenario) {
-			MobileElement txtMessage1 = (MobileElement) driver.findElementByAccessibilityId("Message from Wilf");
-			Assert.assertTrue(txtMessage1.getText().contains("Message from Wilf"));
-			MobileElement txtMessageInterior1 = (MobileElement) driver.findElementByAccessibilityId("Thank you for your commitment in 2017");
-			Assert.assertTrue(txtMessageInterior1.getText().contains("Thank you for your commitment in 2017"));
+		public  void elements_in_Home_Page_are_Validated(AppiumDriver driver,Scenario scenario) {
+            Assert.assertTrue(Txt_Blk1_Mss1.getText().contains("Message from Wilf"));
+			Assert.assertTrue(Txt_Blk1_Mss2.getText().contains("Thank you for your commitment in 2017"));
 
+            }
 
+		public  void user_Clicks_on_the_Chat_Icon_at_Bottom_of_Home_Page(AppiumDriver driver,Scenario scenario) throws MalformedURLException {
 
-			MobileElement txtMessage2 = (MobileElement) driver.findElementByAccessibilityId("Message from Wilf");
-
-
-			Assert.assertTrue(txtMessage2.getText().contains("Message from Wilf"));
-			MobileElement txtMessageInterior2 = (MobileElement) driver.findElementByAccessibilityId("Thank you for your commitment in 2017");
-			Assert.assertTrue(txtMessageInterior2.getText().contains("Thank you for your commitment in 2017"));
-}
-
-		public static void user_Clicks_on_the_Chat_Icon_at_Bottom_of_Home_Page(AppiumDriver driver,Scenario scenario) throws MalformedURLException {
-
-
-			System.out.println("******** user_Clicks_on_the_Chat_Icon_at_Bottom_of_Home_Page");//(//XCUIElementTypeOther[@name="4.pruTopia.NewsScreen"])[6]
-			MobileElement el2 = (MobileElement) driver.findElementByXPath("(//XCUIElementTypeOther[@name=\"4.pruTopia.NewsScreen\"])[6]");
-			el2.click();
+			Icon_Chat.click();
 		}
 
-		public static void user_is_navigated_to_the_Chat_Page_of_the_Application(AppiumDriver driver,Scenario scenario) {
-			//wait =new WebDriverWait(driver, 20);                    //
-			MobileElement txttitle = (MobileElement) driver.findElementByXPath("//XCUIElementTypeStaticText[@name=\"navBarTitle\"]");
+		public  void user_is_navigated_to_the_Chat_Page_of_the_Application(AppiumDriver driver,Scenario scenario) {
 
-			wait.until(ExpectedConditions.attributeContains(By.xpath("//XCUIElementTypeStaticText[@name=\"navBarTitle\"]"),"value","Chat"));
+		    wait.until(ExpectedConditions.attributeContains(Txt_PageTitle,"value","Chat"));
 
 		}
 
-
-
-
-}
+        public void User_is_able_to_see_Login_Error_Message(AppiumDriver driver, Scenario scenario)
+        {
+                    wait.until(ExpectedConditions.visibilityOf(Lbl_ErrorMessage));
+                    Assert.assertTrue(Lbl_ErrorMessage.getText().contains("Your account or password is incorrect. If you don't remember your password,"));
+        }
+    }
 		
 
 	
