@@ -5,6 +5,7 @@
       {
         "name": "User Clicks on Sign in Button",
         "aggregatedDurations": {
+<<<<<<< HEAD
           "average": 1.754761211,
           "median": 1.754761211
         },
@@ -16,6 +17,15 @@
           {
             "duration": 1.762465307,
             "location": "features/1Login.feature:22"
+=======
+          "average": 1.66717782,
+          "median": 1.66717782
+        },
+        "durations": [
+          {
+            "duration": 1.66717782,
+            "location": "features/Login.feature:9"
+>>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
           }
         ]
       }
@@ -27,6 +37,7 @@
       {
         "name": "User is navigated to the Chat Page of the Application",
         "aggregatedDurations": {
+<<<<<<< HEAD
           "average": 1.358993051,
           "median": 1.358993051
         },
@@ -34,6 +45,15 @@
           {
             "duration": 1.358993051,
             "location": "features/2ChatBox.feature:6"
+=======
+          "average": 2.628007605,
+          "median": 2.628007605
+        },
+        "durations": [
+          {
+            "duration": 2.628007605,
+            "location": "features/Login.feature:17"
+>>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
           }
         ]
       }
@@ -45,6 +65,7 @@
       {
         "name": "PruBuddy sends Response Text \"Hello, I am PRUBuddy,  your virtual assistant\"",
         "aggregatedDurations": {
+<<<<<<< HEAD
           "average": 0.000106271,
           "median": 0.000106271
         },
@@ -52,12 +73,22 @@
           {
             "duration": 0.000106271,
             "location": "features/2ChatBox.feature:11"
+=======
+          "average": 0.000112321,
+          "median": 0.000112321
+        },
+        "durations": [
+          {
+            "duration": 0.000112321,
+            "location": "features/Login.feature:22"
+>>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
           }
         ]
       },
       {
         "name": "PruBuddy sends Response Text \"May I know what is your job level?\"",
         "aggregatedDurations": {
+<<<<<<< HEAD
           "average": 0.0001024,
           "median": 0.0001024
         },
@@ -275,6 +306,80 @@
           {
             "duration": 6.853784113,
             "location": "features/2ChatBox.feature:5"
+=======
+          "average": 0.000101208,
+          "median": 0.000101208
+        },
+        "durations": [
+          {
+            "duration": 0.000101208,
+            "location": "features/Login.feature:22"
+          }
+        ]
+      },
+      {
+        "name": "PruBuddy sends Response Text \"Yes or No\"",
+        "aggregatedDurations": {
+          "average": 0.000107541,
+          "median": 0.000107541
+        },
+        "durations": [
+          {
+            "duration": 0.000107541,
+            "location": "features/Login.feature:22"
+          }
+        ]
+      },
+      {
+        "name": "PruBuddy sends Response Text \"You are entitled to 22 days of leave per annum\"",
+        "aggregatedDurations": {
+          "average": 0.000097193,
+          "median": 0.000097193
+        },
+        "durations": [
+          {
+            "duration": 0.000097193,
+            "location": "features/Login.feature:22"
+          }
+        ]
+      },
+      {
+        "name": "PruBuddy sends Response Text \"How many years are you with PACS?\"",
+        "aggregatedDurations": {
+          "average": 0.000103251,
+          "median": 0.000103251
+        },
+        "durations": [
+          {
+            "duration": 0.000103251,
+            "location": "features/Login.feature:22"
+          }
+        ]
+      },
+      {
+        "name": "PruBuddy sends Response Text \"Yes\"",
+        "aggregatedDurations": {
+          "average": 0.000083683,
+          "median": 0.000083683
+        },
+        "durations": [
+          {
+            "duration": 0.000083683,
+            "location": "features/Login.feature:22"
+          }
+        ]
+      },
+      {
+        "name": "PruBuddy sends Response Text \"Are you working in head office or customer centre?\"",
+        "aggregatedDurations": {
+          "average": 0.00006535,
+          "median": 0.00006535
+        },
+        "durations": [
+          {
+            "duration": 0.00006535,
+            "location": "features/Login.feature:22"
+>>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
           }
         ]
       }
@@ -284,6 +389,7 @@
     "source": "^User is able to see Login Error Message$",
     "steps": [
       {
+<<<<<<< HEAD
         "name": "User is able to see Login Error Message",
         "aggregatedDurations": {
           "average": 4.057379327,
@@ -293,6 +399,17 @@
           {
             "duration": 4.057379327,
             "location": "features/1Login.feature:10"
+=======
+        "name": "PruBuddy sends Response Text \"Normal Working Hours:8.30 am\"",
+        "aggregatedDurations": {
+          "average": 0.000104143,
+          "median": 0.000104143
+        },
+        "durations": [
+          {
+            "duration": 0.000104143,
+            "location": "features/Login.feature:22"
+>>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
           }
         ]
       }
@@ -302,6 +419,7 @@
     "source": "^User Enters Password \"(.*?)\"$",
     "steps": [
       {
+<<<<<<< HEAD
         "name": "User Enters Password \"WrongPassword\"",
         "aggregatedDurations": {
           "average": 8.568775044,
@@ -311,10 +429,22 @@
           {
             "duration": 8.568775044,
             "location": "features/1Login.feature:8"
+=======
+        "name": "PruBuddy sends Response Text \"Annual wage Supplement\"",
+        "aggregatedDurations": {
+          "average": 0.000099588,
+          "median": 0.000099588
+        },
+        "durations": [
+          {
+            "duration": 0.000099588,
+            "location": "features/Login.feature:22"
+>>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
           }
         ]
       },
       {
+<<<<<<< HEAD
         "name": "User Enters Password \"Hugu81801\"",
         "aggregatedDurations": {
           "average": 8.095009621,
@@ -324,6 +454,61 @@
           {
             "duration": 8.095009621,
             "location": "features/1Login.feature:21"
+=======
+        "name": "PruBuddy sends Response Text \"job Level\"",
+        "aggregatedDurations": {
+          "average": 0.000103823,
+          "median": 0.000103823
+        },
+        "durations": [
+          {
+            "duration": 0.000103823,
+            "location": "features/Login.feature:22"
+          }
+        ]
+      },
+      {
+        "name": "PruBuddy sends Response Text \"airline\"",
+        "aggregatedDurations": {
+          "average": 0.000117004,
+          "median": 0.000117004
+        },
+        "durations": [
+          {
+            "duration": 0.000117004,
+            "location": "features/Login.feature:22"
+          }
+        ]
+      },
+      {
+        "name": "PruBuddy sends Response Text \"HR-related matters\"",
+        "aggregatedDurations": {
+          "average": 0.000095084,
+          "median": 0.000095084
+        },
+        "durations": [
+          {
+            "duration": 0.000095084,
+            "location": "features/Login.feature:22"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User Clicks on Next Button$",
+    "steps": [
+      {
+        "name": "User Clicks on Next Button",
+        "aggregatedDurations": {
+          "average": 3.113690214,
+          "median": 3.113690214
+        },
+        "durations": [
+          {
+            "duration": 3.113690214,
+            "location": "features/Login.feature:7"
+>>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
           }
         ]
       }
@@ -335,6 +520,7 @@
       {
         "name": "User is Navigated to Home Page of the Application",
         "aggregatedDurations": {
+<<<<<<< HEAD
           "average": 5.171930341,
           "median": 5.171930341
         },
@@ -342,12 +528,22 @@
           {
             "duration": 5.171930341,
             "location": "features/1Login.feature:23"
+=======
+          "average": 1.748593989,
+          "median": 1.748593989
+        },
+        "durations": [
+          {
+            "duration": 1.748593989,
+            "location": "features/Login.feature:11"
+>>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
           }
         ]
       }
     ]
   },
   {
+<<<<<<< HEAD
     "source": "^User Opens Prutopia Application and navigated to Azure Directory for Login$",
     "steps": [
       {
@@ -364,6 +560,20 @@
           {
             "duration": 8.658457991,
             "location": "features/1Login.feature:18"
+=======
+    "source": "^User Clicks on the Chat Icon at Bottom of Home Page$",
+    "steps": [
+      {
+        "name": "User Clicks on the Chat Icon at Bottom of Home Page",
+        "aggregatedDurations": {
+          "average": 3.560080595,
+          "median": 3.560080595
+        },
+        "durations": [
+          {
+            "duration": 3.560080595,
+            "location": "features/Login.feature:16"
+>>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
           }
         ]
       }
@@ -375,6 +585,7 @@
       {
         "name": "User sends Request Text \"Hi\"",
         "aggregatedDurations": {
+<<<<<<< HEAD
           "average": 9.224005983,
           "median": 9.224005983
         },
@@ -382,12 +593,76 @@
           {
             "duration": 9.224005983,
             "location": "features/2ChatBox.feature:10"
+=======
+          "average": 4.840139922,
+          "median": 4.840139922
+        },
+        "durations": [
+          {
+            "duration": 4.840139922,
+            "location": "features/Login.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User Enters Password$",
+    "steps": [
+      {
+        "name": "User Enters Password",
+        "aggregatedDurations": {
+          "average": 6.448324785,
+          "median": 6.448324785
+        },
+        "durations": [
+          {
+            "duration": 6.448324785,
+            "location": "features/Login.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User Opens Prutopia Application and navigated to Azure Directory for Login$",
+    "steps": [
+      {
+        "name": "User Opens Prutopia Application and navigated to Azure Directory for Login",
+        "aggregatedDurations": {
+          "average": 10.483465884,
+          "median": 10.483465884
+        },
+        "durations": [
+          {
+            "duration": 10.483465884,
+            "location": "features/Login.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User Enters Username$",
+    "steps": [
+      {
+        "name": "User Enters Username",
+        "aggregatedDurations": {
+          "average": 4.018082227,
+          "median": 4.018082227
+        },
+        "durations": [
+          {
+            "duration": 4.018082227,
+            "location": "features/Login.feature:6"
+>>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
           }
         ]
       },
       {
         "name": "User sends Request Text \"My Leave\"",
         "aggregatedDurations": {
+<<<<<<< HEAD
           "average": 11.916800845,
           "median": 11.916800845
         },
@@ -395,12 +670,22 @@
           {
             "duration": 11.916800845,
             "location": "features/2ChatBox.feature:10"
+=======
+          "average": 6.911929008,
+          "median": 6.911929008
+        },
+        "durations": [
+          {
+            "duration": 6.911929008,
+            "location": "features/Login.feature:21"
+>>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
           }
         ]
       },
       {
         "name": "User sends Request Text \"Senior Manager\"",
         "aggregatedDurations": {
+<<<<<<< HEAD
           "average": 12.610179303,
           "median": 12.610179303
         },
@@ -408,12 +693,22 @@
           {
             "duration": 12.610179303,
             "location": "features/2ChatBox.feature:10"
+=======
+          "average": 7.778182594,
+          "median": 7.778182594
+        },
+        "durations": [
+          {
+            "duration": 7.778182594,
+            "location": "features/Login.feature:21"
+>>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
           }
         ]
       },
       {
         "name": "User sends Request Text \"Yes\"",
         "aggregatedDurations": {
+<<<<<<< HEAD
           "average": 12.875014413,
           "median": 12.875014413
         },
@@ -421,12 +716,22 @@
           {
             "duration": 12.875014413,
             "location": "features/2ChatBox.feature:10"
+=======
+          "average": 8.800878031,
+          "median": 8.800878031
+        },
+        "durations": [
+          {
+            "duration": 8.800878031,
+            "location": "features/Login.feature:21"
+>>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
           }
         ]
       },
       {
         "name": "User sends Request Text \"Long Leave Service\"",
         "aggregatedDurations": {
+<<<<<<< HEAD
           "average": 14.097662042,
           "median": 14.097662042
         },
@@ -434,10 +739,20 @@
           {
             "duration": 14.097662042,
             "location": "features/2ChatBox.feature:10"
+=======
+          "average": 8.930661786,
+          "median": 8.930661786
+        },
+        "durations": [
+          {
+            "duration": 8.930661786,
+            "location": "features/Login.feature:21"
+>>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
           }
         ]
       },
       {
+<<<<<<< HEAD
         "name": "User sends Request Text \"10 years or longer\"",
         "aggregatedDurations": {
           "average": 15.092527162,
@@ -447,12 +762,37 @@
           {
             "duration": 15.092527162,
             "location": "features/2ChatBox.feature:10"
+=======
+        "name": "User sends Request Text \"Long Leave Service\"",
+        "aggregatedDurations": {
+          "average": 10.488068342,
+          "median": 10.488068342
+        },
+        "durations": [
+          {
+            "duration": 10.488068342,
+            "location": "features/Login.feature:21"
+          }
+        ]
+      },
+      {
+        "name": "User sends Request Text \"10 years or longer\"",
+        "aggregatedDurations": {
+          "average": 10.582754902,
+          "median": 10.582754902
+        },
+        "durations": [
+          {
+            "duration": 10.582754902,
+            "location": "features/Login.feature:21"
+>>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
           }
         ]
       },
       {
         "name": "User sends Request Text \"Working hours\"",
         "aggregatedDurations": {
+<<<<<<< HEAD
           "average": 15.764761317,
           "median": 15.764761317
         },
@@ -460,12 +800,22 @@
           {
             "duration": 15.764761317,
             "location": "features/2ChatBox.feature:10"
+=======
+          "average": 11.464476779,
+          "median": 11.464476779
+        },
+        "durations": [
+          {
+            "duration": 11.464476779,
+            "location": "features/Login.feature:21"
+>>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
           }
         ]
       },
       {
         "name": "User sends Request Text \"Head office\"",
         "aggregatedDurations": {
+<<<<<<< HEAD
           "average": 16.427741623,
           "median": 16.427741623
         },
@@ -473,12 +823,22 @@
           {
             "duration": 16.427741623,
             "location": "features/2ChatBox.feature:10"
+=======
+          "average": 11.797026735,
+          "median": 11.797026735
+        },
+        "durations": [
+          {
+            "duration": 11.797026735,
+            "location": "features/Login.feature:21"
+>>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
           }
         ]
       },
       {
         "name": "User sends Request Text \"Annual wage Supplement\"",
         "aggregatedDurations": {
+<<<<<<< HEAD
           "average": 17.784164221,
           "median": 17.784164221
         },
@@ -486,12 +846,22 @@
           {
             "duration": 17.784164221,
             "location": "features/2ChatBox.feature:10"
+=======
+          "average": 13.122441479,
+          "median": 13.122441479
+        },
+        "durations": [
+          {
+            "duration": 13.122441479,
+            "location": "features/Login.feature:21"
+>>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
           }
         ]
       },
       {
         "name": "User sends Request Text \"My Travel Benifits\"",
         "aggregatedDurations": {
+<<<<<<< HEAD
           "average": 18.716389538,
           "median": 18.716389538
         },
@@ -499,12 +869,22 @@
           {
             "duration": 18.716389538,
             "location": "features/2ChatBox.feature:10"
+=======
+          "average": 13.623778664,
+          "median": 13.623778664
+        },
+        "durations": [
+          {
+            "duration": 13.623778664,
+            "location": "features/Login.feature:21"
+>>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
           }
         ]
       },
       {
         "name": "User sends Request Text \"Associate VP \u0026 Below\"",
         "aggregatedDurations": {
+<<<<<<< HEAD
           "average": 19.513897382,
           "median": 19.513897382
         },
@@ -512,12 +892,22 @@
           {
             "duration": 19.513897382,
             "location": "features/2ChatBox.feature:10"
+=======
+          "average": 14.358393206,
+          "median": 14.358393206
+        },
+        "durations": [
+          {
+            "duration": 14.358393206,
+            "location": "features/Login.feature:21"
+>>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
           }
         ]
       },
       {
         "name": "User sends Request Text \"Who is my Hr Partner\"",
         "aggregatedDurations": {
+<<<<<<< HEAD
           "average": 20.47138485,
           "median": 20.47138485
         },
@@ -525,6 +915,15 @@
           {
             "duration": 20.47138485,
             "location": "features/2ChatBox.feature:10"
+=======
+          "average": 15.150433537,
+          "median": 15.150433537
+        },
+        "durations": [
+          {
+            "duration": 15.150433537,
+            "location": "features/Login.feature:21"
+>>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
           }
         ]
       }

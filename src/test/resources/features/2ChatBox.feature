@@ -1,6 +1,23 @@
+<<<<<<< HEAD:src/test/resources/features/2ChatBox.feature
 Feature: ChatBox Scenarios
 
   @NavigateToPruBuddy
+=======
+Feature: Login Scenarios
+
+      @DemoPositive1
+      Scenario: Login to Prutopia App Navigate to Home Screen and Validate Home Page Elements
+        When User Opens Prutopia Application and navigated to Azure Directory for Login
+        When User Enters Username
+        Then User Clicks on Next Button
+        When User Enters Password
+        Then User Clicks on Sign in Button
+        Then User is Navigated to Home Page of the Application
+        Then Elements in Home Page are Validated
+
+
+  @DemoPositive2
+>>>>>>> 603d37909f01258015dd667f68673c884fb3ca44:src/test/resources/features/Login.feature
   Scenario: Navigating to PruBuddy and Perform Chat
     When User Clicks on the Chat Icon at Bottom of Home Page
     Then User is navigated to the Chat Page of the Application
@@ -24,8 +41,11 @@ Feature: ChatBox Scenarios
       |Associate VP & Below                                | airline                                                      |
       |Who is my Hr Partner                                |HR-related matters                                            |
 
+<<<<<<< HEAD:src/test/resources/features/2ChatBox.feature
 
 
+=======
+>>>>>>> 603d37909f01258015dd667f68673c884fb3ca44:src/test/resources/features/Login.feature
 
 
 

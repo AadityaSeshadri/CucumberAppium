@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1dba0e0d-7052-4af2-9c21-8681c5f6a9a6" name="Default" comment="">
+<<<<<<< HEAD
       <change beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/features/1Login.feature" />
       <change beforePath="" afterPath="$PROJECT_DIR$/target/cucumber-ExtendedReports/report.html" />
       <change beforePath="" afterPath="$PROJECT_DIR$/target/cucumber-ExtendedReports/screenshots/Login_to_Prutopia_App_Navigate_to_Home_Screen_and_Validate_Home_Page_Elements.png" />
@@ -27,6 +28,8 @@
       <change beforePath="" afterPath="$PROJECT_DIR$/target/temp1523599788523/0.png" />
       <change beforePath="" afterPath="$PROJECT_DIR$/target/temp1523599788523/0.svg" />
       <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/features/1Login.feature" />
+=======
+>>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
       <change beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
@@ -6167,20 +6170,28 @@
       <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/Hooks.java" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/Hooks.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/RunCukesTest.java" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/RunCukesTest.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/StepDefinitions.java" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/StepDefinitions.java" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/src/test/resources/Driver/chromedriver.exe" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/Driver/chromedriver_Linux" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/Driver/chromedriver_MAC" afterPath="$PROJECT_DIR$/target/test-classes/Driver/chromedriver_MAC" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/Driver/phantomjs.exe" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/ChatBox.feature" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterPath="$PROJECT_DIR$/src/test/resources/features/2ChatBox.feature" />
+=======
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" />
+>>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/Others.feature" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/cucumber-usage.json" afterPath="$PROJECT_DIR$/target/cucumber-usage.json" />
       <change beforePath="$PROJECT_DIR$/target/cucumber.json" afterPath="$PROJECT_DIR$/target/cucumber.json" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-| 1) Head office | Normal Working Hours:8.30 am |.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/| 1) Head office | Normal Working Hours:8.30 am |.txt" afterPath="" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/target/test-classes/features/ChatBox.feature" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/features/Login.feature" afterPath="$PROJECT_DIR$/target/test-classes/features/2ChatBox.feature" />
+=======
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Login.feature" afterPath="$PROJECT_DIR$/target/test-classes/features/Login.feature" />
+>>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
       <change beforePath="$PROJECT_DIR$/target/test-classes/features/Others.feature" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/ChatPage.class" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/ChatPage.class" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/LoginPage.class" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/LoginPage.class" />
@@ -6201,8 +6212,13 @@
       <file leaf-file-name="RunCukesTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/step_definitions/RunCukesTest.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="179">
               <caret line="26" column="61" lean-forward="false" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
+=======
+            <state relative-caret-position="210">
+              <caret line="24" column="28" lean-forward="false" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+>>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
               <folding />
             </state>
           </provider>
@@ -6211,18 +6227,34 @@
       <file leaf-file-name="DataHelper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/helpers/DataHelper.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="-406">
               <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding />
+=======
+            <state relative-caret-position="347">
+              <caret line="82" column="16" lean-forward="false" selection-start-line="82" selection-start-column="16" selection-end-line="82" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+>>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="2ChatBox.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/2ChatBox.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
               <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+=======
+      <file leaf-file-name="Login.feature" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/Login.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+>>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
               <folding />
             </state>
           </provider>
@@ -6231,9 +6263,17 @@
       <file leaf-file-name="StepDefinitions.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/step_definitions/StepDefinitions.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="167">
               <caret line="105" column="23" lean-forward="false" selection-start-line="105" selection-start-column="23" selection-end-line="105" selection-end-column="23" />
               <folding />
+=======
+            <state relative-caret-position="390">
+              <caret line="52" column="58" lean-forward="false" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+>>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
             </state>
           </provider>
         </entry>
@@ -6241,15 +6281,24 @@
       <file leaf-file-name="ChatPage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/ChatPage.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="450">
               <caret line="51" column="17" lean-forward="false" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
               <folding />
+=======
+            <state relative-caret-position="435">
+              <caret line="46" column="26" lean-forward="false" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+>>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Hooks.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/step_definitions/Hooks.java">
+<<<<<<< HEAD
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1215">
               <caret line="120" column="14" lean-forward="false" selection-start-line="120" selection-start-column="14" selection-end-line="120" selection-end-column="14" />
@@ -6276,6 +6325,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
               <caret line="22" column="36" lean-forward="false" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+=======
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="90" column="161" lean-forward="false" selection-start-line="90" selection-start-column="161" selection-end-line="90" selection-end-column="161" />
+>>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
               <folding />
             </state>
           </provider>
@@ -6312,6 +6366,7 @@
         <option value="$PROJECT_DIR$/src/test/java/step_definitions/Reusable_Functions.java" />
         <option value="$PROJECT_DIR$/src/test/java/pageobjects/HomePage.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/Others.feature" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/features/Login.feature" />
         <option value="$PROJECT_DIR$/src/test/resources/features/A.feature" />
@@ -6322,6 +6377,15 @@
         <option value="$PROJECT_DIR$/src/test/java/step_definitions/RunCukesTest.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/1Login.feature" />
         <option value="$PROJECT_DIR$/src/test/java/pageobjects/LoginPage.java" />
+=======
+        <option value="$PROJECT_DIR$/src/test/resources/features/ChatBox.feature" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/step_definitions/StepDefinitions.java" />
+        <option value="$PROJECT_DIR$/src/test/java/step_definitions/RunCukesTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pageobjects/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/Login.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/pageobjects/ChatPage.java" />
+>>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
         <option value="$PROJECT_DIR$/src/test/java/step_definitions/Hooks.java" />
       </list>
     </option>
@@ -6343,9 +6407,15 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="x" value="2" />
     <option name="y" value="38" />
     <option name="width" value="1430" />
+=======
+    <option name="x" value="27" />
+    <option name="y" value="51" />
+    <option name="width" value="1405" />
+>>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
     <option name="height" value="782" />
   </component>
   <component name="ProjectView">
@@ -6363,7 +6433,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scope" />
+=======
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+>>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -6395,6 +6470,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="helpers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -6403,6 +6479,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+=======
+>>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
               <item name="pageobjects" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -6430,16 +6508,25 @@
             </path>
             <path>
               <item name="cucumber-java-template" type="b2602c69:ProjectViewProjectNode" />
+<<<<<<< HEAD
               <item name="CucumberAppium_Dev" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="testData" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="CucumberAppium" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
+=======
+      <pane id="Scope" />
+>>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
       <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
@@ -6636,9 +6723,13 @@
       <workItem from="1523510585659" duration="499000" />
       <workItem from="1523511570201" duration="76000" />
       <workItem from="1523511843885" duration="1257000" />
+<<<<<<< HEAD
       <workItem from="1523522597273" duration="649000" />
       <workItem from="1523523369328" duration="6364000" />
       <workItem from="1523585406854" duration="9712000" />
+=======
+      <workItem from="1523522597273" duration="838000" />
+>>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
     </task>
     <servers />
   </component>
@@ -6675,10 +6766,18 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="96610000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="38" width="1430" height="782" extended-state="0" />
+=======
+    <option name="totallyTimeSpent" value="80723000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="27" y="51" width="1405" height="782" extended-state="0" />
+    <editor active="true" />
+>>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -6688,9 +6787,15 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39859155" sideWeight="0.5053381" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4169014" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896653" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33915576" sideWeight="0.49466193" order="7" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39859155" sideWeight="0.49466193" order="7" side_tool="false" content_ui="tabs" />
+>>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29466859" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -6965,6 +7070,10 @@
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/2.44.0/selenium-support-2.44.0.jar!/org/openqa/selenium/support/How.class" />
+<<<<<<< HEAD
+=======
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.7.1/selenium-support-3.7.1.jar!/org/openqa/selenium/support/How.class" />
+>>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
     <entry file="file://$PROJECT_DIR$/src/test/java/step_definitions/Reusable_Functions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -7037,6 +7146,7 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.7.1/selenium-support-3.7.1.jar!/org/openqa/selenium/support/How.class">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="90">
           <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
         </state>
@@ -7076,11 +7186,17 @@
         <state relative-caret-position="330">
           <caret line="22" column="36" lean-forward="false" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
           <folding />
+=======
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+>>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/LoginPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Others.feature" />
+    <entry file="file://$PROJECT_DIR$/target/cucumber-ExtendedReports/report.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="1110">
           <caret line="106" column="14" lean-forward="false" selection-start-line="106" selection-start-column="14" selection-end-line="106" selection-end-column="14" />
           <folding>
@@ -7102,10 +7218,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-406">
           <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+=======
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="52" column="58" lean-forward="false" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/step_definitions/RunCukesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="24" column="28" lean-forward="false" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+>>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/test/java/step_definitions/Hooks.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1215">
@@ -7118,12 +7256,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/ChatPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="46" column="26" lean-forward="false" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/step_definitions/Hooks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="90" column="161" lean-forward="false" selection-start-line="90" selection-start-column="161" selection-end-line="90" selection-end-column="161" />
+>>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/step_definitions/StepDefinitions.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="167">
           <caret line="105" column="23" lean-forward="false" selection-start-line="105" selection-start-column="23" selection-end-line="105" selection-end-column="23" />
           <folding />
@@ -7134,6 +7289,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="51" column="17" lean-forward="false" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
+=======
+        <state relative-caret-position="347">
+          <caret line="82" column="16" lean-forward="false" selection-start-line="82" selection-start-column="16" selection-end-line="82" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Login.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+>>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
           <folding />
         </state>
       </provider>

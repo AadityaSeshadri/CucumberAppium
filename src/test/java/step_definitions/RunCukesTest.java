@@ -24,16 +24,40 @@ import java.io.File;
 		jsonUsageReport = "target/cucumber-usage.json",
 		usageReport = true,
 		toPDF = true,
+<<<<<<< HEAD
 		includeCoverageTags = {"@LoginNegative,@LoginPositive,@NavigateToPruBuddy,@PruBuddyChat"},
+=======
+		includeCoverageTags = {"@DemoPositive1,@DemoPositive2"},
+>>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
 		outputFolder = "target/")
 
 @CucumberOptions(
 		features = "classpath:features",
+<<<<<<< HEAD
 		plugin = {"json:target/cucumber.json","usage:target/cucumber-usage.json","com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-ExtendedReports/report.html"},
 		tags = {"@LoginNegative,@LoginPositive,@NavigateToPruBuddy,@PruBuddyChat"}
 		//monochrome = true
 		)
 
+=======
+		//plugin = {"json:target/cucumber.json","usage:target/cucumber-usage.json"},
+plugin = {"json:target/cucumber.json","usage:target/cucumber-usage.json","com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-ExtendedReports/report.html"},
+		tags = {"@DemoPositive1,@DemoPositive2"}
+		//monochrome = true
+		)
+		//tags = {"@initial"})
+/*
+@ExtendedCucumberOptions(jsonReport = "target/cucumber.json",
+		retryCount = 3,
+		detailedReport = true,
+		detailedAggregatedReport = true,
+		overviewReport = true,
+		//coverageReport = true,
+		jsonUsageReport = "target/cucumber-usage.json",
+		usageReport = true,
+		toPDF = true,
+		outputFolder = "target/cucumber-html-report")*/
+>>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
 
 public class RunCukesTest{
 

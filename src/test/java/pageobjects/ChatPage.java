@@ -57,14 +57,26 @@ public class ChatPage {
       /*  driver.findElement( By.xpath( "//XCUIElementTypeTextView[@name=\"chatTextInput Type Here...\"]" ) ).sendKeys(req_text);
         //driver.findElement( By.xpath( "//XCUIElementTypeTextView[@name=\"chatTextInput\"]" ) ).sendKeys(req_text);
 
+<<<<<<< HEAD
         driver.findElement(By.xpath("(//XCUIElementTypeOther[@name=\"chatSendButton\"])[2]")).click();
         Thread.sleep(500);*/
+=======
+        driver.findElement( By.xpath( "//XCUIElementTypeTextView[@name=\"chatTextInput Type Here...\"]" ) ).sendKeys(req_text);
+        //driver.findElement( By.xpath( "//XCUIElementTypeTextView[@name=\"chatTextInput\"]" ) ).sendKeys(req_text);
+
+        driver.findElement(By.xpath("(//XCUIElementTypeOther[@name=\"chatSendButton\"])[2]")).click();
+        Thread.sleep(500);
+>>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
      //wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("(//XCUIElementTypeStaticText[@name=\"restChat\"])["+Req_Index +"]"))));
         //Req_Index = Req_Index+2;
 
     }
 
+<<<<<<< HEAD
     public  void Prubuddy_Sends_Response(AppiumDriver driver,Scenario scenario, String resp_text) {
+=======
+    public static void Prubuddy_Sends_Response(AppiumDriver driver,Scenario scenario, String resp_text) {
+>>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
        // wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("(//XCUIElementTypeStaticText[@name=\"restChat\"])["+Resp_index +"]"))));
        // System.out.println("Resp_Index"+ Resp_index);
  }

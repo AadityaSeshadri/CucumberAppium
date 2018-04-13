@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /Users/user/Documents/CucumberAppium_Dev/src/test/java/helpers/ConfigReaderClass.java
 /Users/user/Documents/CucumberAppium_Dev/src/test/java/pageobjects/ChatPage.java
 /Users/user/Documents/CucumberAppium_Dev/src/test/java/helpers/DataHelper.java
@@ -8,3 +9,15 @@
 /Users/user/Documents/CucumberAppium_Dev/src/test/java/step_definitions/Reusable_Functions.java
 /Users/user/Documents/CucumberAppium_Dev/src/test/java/step_definitions/StepDefinitions.java
 /Users/user/Documents/CucumberAppium_Dev/src/test/java/step_definitions/RunCukesTest.java
+=======
+/Users/user/Documents/CucumberAppium/src/test/java/step_definitions/Reusable_Functions.java
+/Users/user/Documents/CucumberAppium/src/test/java/step_definitions/RunCukesTest.java
+/Users/user/Documents/CucumberAppium/src/test/java/helpers/Log.java
+/Users/user/Documents/CucumberAppium/src/test/java/step_definitions/StepDefinitions.java
+/Users/user/Documents/CucumberAppium/src/test/java/pageobjects/LoginPage.java
+/Users/user/Documents/CucumberAppium/src/test/java/step_definitions/Hooks.java
+/Users/user/Documents/CucumberAppium/src/test/java/pageobjects/ChatPage.java
+/Users/user/Documents/CucumberAppium/src/test/java/helpers/DataHelper.java
+/Users/user/Documents/CucumberAppium/src/test/java/pageobjects/HomePage.java
+/Users/user/Documents/CucumberAppium/src/test/java/helpers/ConfigReaderClass.java
+>>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
