@@ -41,15 +41,18 @@ public class ChatPage {
     public static void User_sends_ReqText(AppiumDriver driver,Scenario scenario,String req_text) throws InterruptedException {
 
         driver.findElement( By.xpath( "//XCUIElementTypeTextView[@name=\"chatTextInput Type Here...\"]" ) ).sendKeys(req_text);
+        //driver.findElement( By.xpath( "//XCUIElementTypeTextView[@name=\"chatTextInput\"]" ) ).sendKeys(req_text);
+
         driver.findElement(By.xpath("(//XCUIElementTypeOther[@name=\"chatSendButton\"])[2]")).click();
-     wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("(//XCUIElementTypeStaticText[@name=\"restChat\"])["+Req_Index +"]"))));
-        Req_Index = Req_Index+2;
+        Thread.sleep(500);
+     //wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("(//XCUIElementTypeStaticText[@name=\"restChat\"])["+Req_Index +"]"))));
+        //Req_Index = Req_Index+2;
 
     }
 
     public static void Prubuddy_Sends_Response(AppiumDriver driver,Scenario scenario, String resp_text) {
-        wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("(//XCUIElementTypeStaticText[@name=\"restChat\"])["+Resp_index +"]"))));
-        System.out.println("Resp_Index"+ Resp_index);
+       // wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("(//XCUIElementTypeStaticText[@name=\"restChat\"])["+Resp_index +"]"))));
+       // System.out.println("Resp_Index"+ Resp_index);
  }
 
 
@@ -62,9 +65,6 @@ public class ChatPage {
     {
         byte[] screenshot = ((TakesScreenshot)driver).getScreenshotAs( OutputType.BYTES);
         scenario.embed(screenshot, "image/png");
-
-
-
     }
 
 

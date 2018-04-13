@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: | Who is my Hr Partner | HR-related matters |
+-------------------------------------------------------------------------------
+Tests run: 47, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 186.29 sec - in | Who is my Hr Partner | HR-related matters |

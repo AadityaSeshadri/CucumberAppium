@@ -35,7 +35,7 @@ public StepDefinitions()
     }
 
 
-    @When("^User Opens Prutopia Application$")
+/*    @When("^User Opens Prutopia Application$")
     public void user_Opens_Prutopia_Application() throws Throwable {
 
         System.out.println("User Opens Prutopia Application");
@@ -46,9 +46,9 @@ public StepDefinitions()
     public void user_should_be_able_to_see_Splash_Screen() throws Throwable {
 
         LoginPage.user_should_be_able_to_see_Splash_Screen(driver,scenario);
-    }
+    }*/
 
-    @Then("^User is navigated to Azure Directory for Login$")
+    @When("^User Opens Prutopia Application and navigated to Azure Directory for Login$")
     public void user_is_navigated_to_Azure_Directory_for_Login() throws Throwable {
 
         LoginPage.user_is_navigated_to_Azure_Directory_for_Login(driver,scenario);

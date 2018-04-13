@@ -2,9 +2,7 @@ Feature: Login Scenarios
 
       @DemoPositive1
       Scenario: Login to Prutopia App Navigate to Home Screen and Validate Home Page Elements
-        When User Opens Prutopia Application
-        Then User should be able to see Splash Screen
-        Then User is navigated to Azure Directory for Login
+        When User Opens Prutopia Application and navigated to Azure Directory for Login
         When User Enters Username
         Then User Clicks on Next Button
         When User Enters Password
@@ -30,9 +28,14 @@ Feature: Login Scenarios
       |Senior Manager                                      |Yes or No                                                     |
       |Yes                                                 |You are entitled to 22 days of leave per annum                |
       |Long Leave Service                                  |How many years are you with PACS?                             |
-      |2) 10 years or longer                               |Yes                                                           |
+      |10 years or longer                                  |Yes                                                           |
       |Working hours                                       |Are you working in head office or customer centre?            |
-      |1) Head office                                      |Normal Working Hours:8.30 am                                  |
+      |Head office                                         |Normal Working Hours:8.30 am                                  |
+      |Annual wage Supplement                              |Annual wage Supplement                                        |
+      |My Travel Benifits                                  |job Level                                                     |
+      |Associate VP & Below                                | airline                                                      |
+      |Who is my Hr Partner                                |HR-related matters                                            |
+
 
 
 

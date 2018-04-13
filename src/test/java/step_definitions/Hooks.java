@@ -61,7 +61,7 @@ public class Hooks{
         //Build the Appium service
         builder = new AppiumServiceBuilder();
         builder.withIPAddress("127.0.0.1");
-        builder.usingPort(4725);
+        builder.usingPort(4723);
         builder.withCapabilities(cap);
         builder.withArgument(GeneralServerFlag.SESSION_OVERRIDE);
         builder.withArgument(GeneralServerFlag.LOG_LEVEL,"error");
@@ -88,14 +88,14 @@ public class Hooks{
         capabilities.setCapability("automationName", "XCUITest");
         capabilities.setCapability("deviceName", "iPhone X");
 
-        String appPath = "/Users/user/Library/Developer/Xcode/DerivedData/prutopia-bshhxtvrkfrofgazervrafchfnrm/Build/Products/Release-iphonesimulator/prutopia.app";
+        String appPath = "/Users/user/Library/Developer/Xcode/DerivedData/prutopia-bshhxtvrkfrofgazervrafchfnrm/Build/Products/Debug-iphonesimulator/prutopia.app";
 
         assert appPath != null: "Path to iOS app is not set";
         System.out.println("iOS App path: "+ appPath);
         capabilities.setCapability("app", appPath);
         //driver = new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
         //driver  = (AppiumDriver) new RemoteWebDriver(new URL("http://127.0.0.1:4723/wd/hub/"), capabilities);
-        driver = new IOSDriver(new URL("http://127.0.0.1:4725/wd/hub"), capabilities);
+        driver = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
         // driver = new RemoteWebDriver(new URL("http://127.0.0.1:4725/wd/hub"), capabilities);
         wait = new WebDriverWait(driver,20);
 
