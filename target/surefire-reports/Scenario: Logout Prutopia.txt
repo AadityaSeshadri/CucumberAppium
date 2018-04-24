@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: Scenario: Logout Prutopia
+-------------------------------------------------------------------------------
+Tests run: 51, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 357.145 sec - in Scenario: Logout Prutopia

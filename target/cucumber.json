@@ -6,152 +6,7 @@
         "before": [
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 13659140602,
-=======
-              "duration": 13486226120,
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.openBrowser(Scenario)"
-            }
-          }
-        ],
-        "line": 13,
-        "name": "Login to Prutopia App Navigate to Home Screen and Validate Home Page Elements",
-        "description": "",
-        "id": "1login;login-to-prutopia-app-navigate-to-home-screen-and-validate-home-page-elements;;2",
-        "after": [
-          {
-            "result": {
-              "duration": 88941,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.embedScreenshot(Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-<<<<<<< HEAD
-              "duration": 15600864533,
-=======
-              "duration": 10483465884,
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "User Opens Prutopia Application and navigated to Azure Directory for Login",
-            "match": {
-              "location": "StepDefinitions.user_is_navigated_to_Azure_Directory_for_Login()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-<<<<<<< HEAD
-              "duration": 5022780291,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "User Enters Username \"prutopia@azurepaloit.onmicrosoft.com\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "prutopia@azurepaloit.onmicrosoft.com",
-                  "offset": 22
-                }
-              ],
-              "location": "StepDefinitions.user_Enters_Username(String)"
-            },
-            "matchedColumns": [
-              0
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 3089885177,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "User Clicks on Next Button",
-            "match": {
-              "location": "StepDefinitions.user_Clicks_on_Next_Button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 8568775044,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "User Enters Password \"WrongPassword\"",
-=======
-              "duration": 4018082227,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "User Enters Username",
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
-            "match": {
-              "arguments": [
-                {
-                  "val": "WrongPassword",
-                  "offset": 22
-                }
-              ],
-              "location": "StepDefinitions.user_Enters_Password(String)"
-            },
-            "matchedColumns": [
-              1
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-<<<<<<< HEAD
-              "duration": 1747057116,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "User Clicks on Sign in Button",
-            "match": {
-              "location": "StepDefinitions.user_Clicks_on_Sign_in_Button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 4057379327,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "User is able to see Login Error Message",
-            "match": {
-              "location": "StepDefinitions.User_is_able_to_see_Login_Error_Message()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 3,
-            "name": "@LoginNegative"
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 10239462731,
+              "duration": 6003196686,
               "status": "passed"
             },
             "match": {
@@ -166,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 71096,
+              "duration": 129745,
               "status": "passed"
             },
             "match": {
@@ -179,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8658457991,
+              "duration": 14852479746,
               "status": "passed"
             },
             "line": 18,
@@ -191,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 4404184056,
+              "duration": 4366890177,
               "status": "passed"
             },
             "line": 19,
@@ -212,16 +67,10 @@
           },
           {
             "result": {
-              "duration": 2969941595,
+              "duration": 3652793474,
               "status": "passed"
             },
             "line": 20,
-=======
-              "duration": 3113690214,
-              "status": "passed"
-            },
-            "line": 7,
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
             "name": "User Clicks on Next Button",
             "match": {
               "location": "StepDefinitions.user_Clicks_on_Next_Button()"
@@ -230,19 +79,11 @@
           },
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 8095009621,
+              "duration": 11591523018,
               "status": "passed"
             },
             "line": 21,
             "name": "User Enters Password \"Hugu81801\"",
-=======
-              "duration": 6448324785,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "User Enters Password",
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
             "match": {
               "arguments": [
                 {
@@ -259,17 +100,10 @@
           },
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 1762465307,
+              "duration": 1855296610,
               "status": "passed"
             },
             "line": 22,
-=======
-              "duration": 1667177820,
-              "status": "passed"
-            },
-            "line": 9,
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
             "name": "User Clicks on Sign in Button",
             "match": {
               "location": "StepDefinitions.user_Clicks_on_Sign_in_Button()"
@@ -278,17 +112,10 @@
           },
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 5171930341,
+              "duration": 4003635891,
               "status": "passed"
             },
             "line": 23,
-=======
-              "duration": 4840139922,
-              "status": "passed"
-            },
-            "line": 10,
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
             "name": "User is Navigated to Home Page of the Application",
             "match": {
               "location": "StepDefinitions.user_is_Navigated_to_Home_Page_of_the_Application()"
@@ -297,17 +124,10 @@
           },
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 1916127412,
+              "duration": 2529880925,
               "status": "passed"
             },
             "line": 24,
-=======
-              "duration": 1748593989,
-              "status": "passed"
-            },
-            "line": 11,
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
             "name": "Elements in Home Page are Validated",
             "match": {
               "location": "StepDefinitions.elements_in_Home_Page_are_Validated()"
@@ -333,18 +153,14 @@
     "line": 1,
     "elements": [
       {
-<<<<<<< HEAD
-        "line": 4,
-=======
-        "line": 15,
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
+        "line": 5,
         "name": "Navigating to PruBuddy and Perform Chat",
         "description": "",
         "id": "chatbox-scenarios;navigating-to-prubuddy-and-perform-chat",
         "after": [
           {
             "result": {
-              "duration": 87955,
+              "duration": 134323,
               "status": "passed"
             },
             "match": {
@@ -357,17 +173,10 @@
         "steps": [
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 6853784113,
+              "duration": 8101223566,
               "status": "passed"
             },
-            "line": 5,
-=======
-              "duration": 3560080595,
-              "status": "passed"
-            },
-            "line": 16,
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
+            "line": 6,
             "name": "User Clicks on the Chat Icon at Bottom of Home Page",
             "match": {
               "location": "StepDefinitions.user_Clicks_on_the_Chat_Icon_at_Bottom_of_Home_Page()"
@@ -376,17 +185,10 @@
           },
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 1358993051,
+              "duration": 566704794,
               "status": "passed"
             },
-            "line": 6,
-=======
-              "duration": 2628007605,
-              "status": "passed"
-            },
-            "line": 17,
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
+            "line": 7,
             "name": "User is navigated to the Chat Page of the Application",
             "match": {
               "location": "StepDefinitions.user_is_navigated_to_the_Chat_Page_of_the_Application()"
@@ -396,29 +198,20 @@
         ],
         "tags": [
           {
-<<<<<<< HEAD
             "line": 3,
             "name": "@NavigateToPruBuddy"
-=======
-            "line": 14,
-            "name": "@DemoPositive2"
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
           }
         ]
       },
       {
-<<<<<<< HEAD
-        "line": 14,
-=======
-        "line": 26,
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
+        "line": 15,
         "name": "User Chats and Validates Response from  Virtual Assistant",
         "description": "",
         "id": "chatbox-scenarios;user-chats-and-validates-response-from--virtual-assistant;;2",
         "after": [
           {
             "result": {
-              "duration": 127097,
+              "duration": 124429,
               "status": "passed"
             },
             "match": {
@@ -431,17 +224,10 @@
         "steps": [
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 9224005983,
+              "duration": 12541920181,
               "status": "passed"
             },
-            "line": 10,
-=======
-              "duration": 6911929008,
-              "status": "passed"
-            },
-            "line": 21,
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
+            "line": 11,
             "name": "User sends Request Text \"Hi\"",
             "match": {
               "arguments": [
@@ -459,22 +245,15 @@
           },
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 106271,
+              "duration": 779627749,
               "status": "passed"
             },
-            "line": 11,
-=======
-              "duration": 112321,
-              "status": "passed"
-            },
-            "line": 22,
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
-            "name": "PruBuddy sends Response Text \"Hello, I am PRUBuddy,  your virtual assistant\"",
+            "line": 12,
+            "name": "PruBuddy sends Response Text \"Hello, I am PRUBuddy,  your virtual assistant.\"",
             "match": {
               "arguments": [
                 {
-                  "val": "Hello, I am PRUBuddy,  your virtual assistant",
+                  "val": "Hello, I am PRUBuddy,  your virtual assistant.",
                   "offset": 30
                 }
               ],
@@ -488,29 +267,20 @@
         ],
         "tags": [
           {
-<<<<<<< HEAD
-            "line": 8,
+            "line": 9,
             "name": "@PruBuddyChat"
-=======
-            "line": 19,
-            "name": "@DemoPositive2"
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
           }
         ]
       },
       {
-<<<<<<< HEAD
-        "line": 15,
-=======
-        "line": 27,
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
+        "line": 16,
         "name": "User Chats and Validates Response from  Virtual Assistant",
         "description": "",
         "id": "chatbox-scenarios;user-chats-and-validates-response-from--virtual-assistant;;3",
         "after": [
           {
             "result": {
-              "duration": 95876,
+              "duration": 132319,
               "status": "passed"
             },
             "match": {
@@ -523,17 +293,10 @@
         "steps": [
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 11916800845,
+              "duration": 12620267267,
               "status": "passed"
             },
-            "line": 10,
-=======
-              "duration": 7778182594,
-              "status": "passed"
-            },
-            "line": 21,
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
+            "line": 11,
             "name": "User sends Request Text \"My Leave\"",
             "match": {
               "arguments": [
@@ -551,17 +314,10 @@
           },
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 102400,
+              "duration": 827414691,
               "status": "passed"
             },
-            "line": 11,
-=======
-              "duration": 101208,
-              "status": "passed"
-            },
-            "line": 22,
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
+            "line": 12,
             "name": "PruBuddy sends Response Text \"May I know what is your job level?\"",
             "match": {
               "arguments": [
@@ -580,29 +336,20 @@
         ],
         "tags": [
           {
-<<<<<<< HEAD
-            "line": 8,
+            "line": 9,
             "name": "@PruBuddyChat"
-=======
-            "line": 19,
-            "name": "@DemoPositive2"
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
           }
         ]
       },
       {
-<<<<<<< HEAD
-        "line": 16,
-=======
-        "line": 28,
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
+        "line": 17,
         "name": "User Chats and Validates Response from  Virtual Assistant",
         "description": "",
         "id": "chatbox-scenarios;user-chats-and-validates-response-from--virtual-assistant;;4",
         "after": [
           {
             "result": {
-              "duration": 131831,
+              "duration": 126373,
               "status": "passed"
             },
             "match": {
@@ -615,17 +362,10 @@
         "steps": [
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 12610179303,
+              "duration": 30719601129,
               "status": "passed"
             },
-            "line": 10,
-=======
-              "duration": 8800878031,
-              "status": "passed"
-            },
-            "line": 21,
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
+            "line": 11,
             "name": "User sends Request Text \"Senior Manager\"",
             "match": {
               "arguments": [
@@ -643,22 +383,15 @@
           },
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 98344,
+              "duration": 867217927,
               "status": "passed"
             },
-            "line": 11,
-=======
-              "duration": 107541,
-              "status": "passed"
-            },
-            "line": 22,
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
-            "name": "PruBuddy sends Response Text \"Yes or No\"",
+            "line": 12,
+            "name": "PruBuddy sends Response Text \"Yes or No?\"",
             "match": {
               "arguments": [
                 {
-                  "val": "Yes or No",
+                  "val": "Yes or No?",
                   "offset": 30
                 }
               ],
@@ -672,29 +405,20 @@
         ],
         "tags": [
           {
-<<<<<<< HEAD
-            "line": 8,
+            "line": 9,
             "name": "@PruBuddyChat"
-=======
-            "line": 19,
-            "name": "@DemoPositive2"
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
           }
         ]
       },
       {
-<<<<<<< HEAD
-        "line": 17,
-=======
-        "line": 29,
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
+        "line": 18,
         "name": "User Chats and Validates Response from  Virtual Assistant",
         "description": "",
         "id": "chatbox-scenarios;user-chats-and-validates-response-from--virtual-assistant;;5",
         "after": [
           {
             "result": {
-              "duration": 148833,
+              "duration": 177769,
               "status": "passed"
             },
             "match": {
@@ -707,17 +431,10 @@
         "steps": [
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 12875014413,
+              "duration": 12224191756,
               "status": "passed"
             },
-            "line": 10,
-=======
-              "duration": 8930661786,
-              "status": "passed"
-            },
-            "line": 21,
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
+            "line": 11,
             "name": "User sends Request Text \"Yes\"",
             "match": {
               "arguments": [
@@ -735,22 +452,15 @@
           },
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 81443,
+              "duration": 879210514,
               "status": "passed"
             },
-            "line": 11,
-=======
-              "duration": 97193,
-              "status": "passed"
-            },
-            "line": 22,
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
-            "name": "PruBuddy sends Response Text \"You are entitled to 22 days of leave per annum\"",
+            "line": 12,
+            "name": "PruBuddy sends Response Text \"You are entitled to 22 days of leave per annum.\"",
             "match": {
               "arguments": [
                 {
-                  "val": "You are entitled to 22 days of leave per annum",
+                  "val": "You are entitled to 22 days of leave per annum.",
                   "offset": 30
                 }
               ],
@@ -764,29 +474,20 @@
         ],
         "tags": [
           {
-<<<<<<< HEAD
-            "line": 8,
+            "line": 9,
             "name": "@PruBuddyChat"
-=======
-            "line": 19,
-            "name": "@DemoPositive2"
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
           }
         ]
       },
       {
-<<<<<<< HEAD
-        "line": 18,
-=======
-        "line": 30,
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
+        "line": 19,
         "name": "User Chats and Validates Response from  Virtual Assistant",
         "description": "",
         "id": "chatbox-scenarios;user-chats-and-validates-response-from--virtual-assistant;;6",
         "after": [
           {
             "result": {
-              "duration": 138155,
+              "duration": 150105,
               "status": "passed"
             },
             "match": {
@@ -799,17 +500,10 @@
         "steps": [
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 14097662042,
+              "duration": 30240748934,
               "status": "passed"
             },
-            "line": 10,
-=======
-              "duration": 10488068342,
-              "status": "passed"
-            },
-            "line": 21,
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
+            "line": 11,
             "name": "User sends Request Text \"Long Leave Service\"",
             "match": {
               "arguments": [
@@ -827,22 +521,15 @@
           },
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 99384,
+              "duration": 953936176,
               "status": "passed"
             },
-            "line": 11,
-=======
-              "duration": 103251,
-              "status": "passed"
-            },
-            "line": 22,
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
-            "name": "PruBuddy sends Response Text \"How many years are you with PACS?\"",
+            "line": 12,
+            "name": "PruBuddy sends Response Text \"Less or More than 10 years?\"",
             "match": {
               "arguments": [
                 {
-                  "val": "How many years are you with PACS?",
+                  "val": "Less or More than 10 years?",
                   "offset": 30
                 }
               ],
@@ -856,29 +543,20 @@
         ],
         "tags": [
           {
-<<<<<<< HEAD
-            "line": 8,
+            "line": 9,
             "name": "@PruBuddyChat"
-=======
-            "line": 19,
-            "name": "@DemoPositive2"
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
           }
         ]
       },
       {
-<<<<<<< HEAD
-        "line": 19,
-=======
-        "line": 31,
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
+        "line": 20,
         "name": "User Chats and Validates Response from  Virtual Assistant",
         "description": "",
         "id": "chatbox-scenarios;user-chats-and-validates-response-from--virtual-assistant;;7",
         "after": [
           {
             "result": {
-              "duration": 138147,
+              "duration": 124452,
               "status": "passed"
             },
             "match": {
@@ -891,17 +569,10 @@
         "steps": [
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 15092527162,
+              "duration": 12992846091,
               "status": "passed"
             },
-            "line": 10,
-=======
-              "duration": 10582754902,
-              "status": "passed"
-            },
-            "line": 21,
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
+            "line": 11,
             "name": "User sends Request Text \"10 years or longer\"",
             "match": {
               "arguments": [
@@ -919,22 +590,15 @@
           },
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 69745,
+              "duration": 975114626,
               "status": "passed"
             },
-            "line": 11,
-=======
-              "duration": 83683,
-              "status": "passed"
-            },
-            "line": 22,
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
-            "name": "PruBuddy sends Response Text \"Yes\"",
+            "line": 12,
+            "name": "PruBuddy sends Response Text \"Long Service Leave of 7 working days is applicable\"",
             "match": {
               "arguments": [
                 {
-                  "val": "Yes",
+                  "val": "Long Service Leave of 7 working days is applicable",
                   "offset": 30
                 }
               ],
@@ -948,29 +612,20 @@
         ],
         "tags": [
           {
-<<<<<<< HEAD
-            "line": 8,
+            "line": 9,
             "name": "@PruBuddyChat"
-=======
-            "line": 19,
-            "name": "@DemoPositive2"
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
           }
         ]
       },
       {
-<<<<<<< HEAD
-        "line": 20,
-=======
-        "line": 32,
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
+        "line": 21,
         "name": "User Chats and Validates Response from  Virtual Assistant",
         "description": "",
         "id": "chatbox-scenarios;user-chats-and-validates-response-from--virtual-assistant;;8",
         "after": [
           {
             "result": {
-              "duration": 135126,
+              "duration": 147471,
               "status": "passed"
             },
             "match": {
@@ -983,17 +638,10 @@
         "steps": [
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 15764761317,
+              "duration": 32563984147,
               "status": "passed"
             },
-            "line": 10,
-=======
-              "duration": 11464476779,
-              "status": "passed"
-            },
-            "line": 21,
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
+            "line": 11,
             "name": "User sends Request Text \"Working hours\"",
             "match": {
               "arguments": [
@@ -1011,22 +659,15 @@
           },
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 103538,
+              "duration": 1023349378,
               "status": "passed"
             },
-            "line": 11,
-=======
-              "duration": 65350,
-              "status": "passed"
-            },
-            "line": 22,
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
-            "name": "PruBuddy sends Response Text \"Are you working in head office or customer centre?\"",
+            "line": 12,
+            "name": "PruBuddy sends Response Text \"head office or customer centre?\"",
             "match": {
               "arguments": [
                 {
-                  "val": "Are you working in head office or customer centre?",
+                  "val": "head office or customer centre?",
                   "offset": 30
                 }
               ],
@@ -1040,29 +681,20 @@
         ],
         "tags": [
           {
-<<<<<<< HEAD
-            "line": 8,
+            "line": 9,
             "name": "@PruBuddyChat"
-=======
-            "line": 19,
-            "name": "@DemoPositive2"
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
           }
         ]
       },
       {
-<<<<<<< HEAD
-        "line": 21,
-=======
-        "line": 33,
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
+        "line": 22,
         "name": "User Chats and Validates Response from  Virtual Assistant",
         "description": "",
         "id": "chatbox-scenarios;user-chats-and-validates-response-from--virtual-assistant;;9",
         "after": [
           {
             "result": {
-              "duration": 127889,
+              "duration": 175243,
               "status": "passed"
             },
             "match": {
@@ -1075,17 +707,10 @@
         "steps": [
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 16427741623,
+              "duration": 18827358704,
               "status": "passed"
             },
-            "line": 10,
-=======
-              "duration": 11797026735,
-              "status": "passed"
-            },
-            "line": 21,
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
+            "line": 11,
             "name": "User sends Request Text \"Head office\"",
             "match": {
               "arguments": [
@@ -1103,22 +728,15 @@
           },
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 110788,
+              "duration": 1042181351,
               "status": "passed"
             },
-            "line": 11,
-=======
-              "duration": 104143,
-              "status": "passed"
-            },
-            "line": 22,
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
-            "name": "PruBuddy sends Response Text \"Normal Working Hours:8.30 am\"",
+            "line": 12,
+            "name": "PruBuddy sends Response Text \"Normal Working Hours: 8.30am to 5.15pm\"",
             "match": {
               "arguments": [
                 {
-                  "val": "Normal Working Hours:8.30 am",
+                  "val": "Normal Working Hours: 8.30am to 5.15pm",
                   "offset": 30
                 }
               ],
@@ -1132,26 +750,20 @@
         ],
         "tags": [
           {
-<<<<<<< HEAD
-            "line": 8,
+            "line": 9,
             "name": "@PruBuddyChat"
-=======
-            "line": 19,
-            "name": "@DemoPositive2"
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
           }
         ]
       },
       {
-<<<<<<< HEAD
-        "line": 22,
+        "line": 23,
         "name": "User Chats and Validates Response from  Virtual Assistant",
         "description": "",
         "id": "chatbox-scenarios;user-chats-and-validates-response-from--virtual-assistant;;10",
         "after": [
           {
             "result": {
-              "duration": 236840,
+              "duration": 93211,
               "status": "passed"
             },
             "match": {
@@ -1159,28 +771,15 @@
             }
           }
         ],
-=======
-        "line": 34,
-        "name": "User Chats and Validates Response from  Virtual Assistant",
-        "description": "",
-        "id": "login-scenarios;user-chats-and-validates-response-from--virtual-assistant;;10",
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 17784164221,
+              "duration": 16707371321,
               "status": "passed"
             },
-            "line": 10,
-=======
-              "duration": 13122441479,
-              "status": "passed"
-            },
-            "line": 21,
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
+            "line": 11,
             "name": "User sends Request Text \"Annual wage Supplement\"",
             "match": {
               "arguments": [
@@ -1198,22 +797,15 @@
           },
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 141514,
+              "duration": 1092669567,
               "status": "passed"
             },
-            "line": 11,
-=======
-              "duration": 99588,
-              "status": "passed"
-            },
-            "line": 22,
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
-            "name": "PruBuddy sends Response Text \"Annual wage Supplement\"",
+            "line": 12,
+            "name": "PruBuddy sends Response Text \"Annual Wage Supplement (AWS) of 1 month of their basic\"",
             "match": {
               "arguments": [
                 {
-                  "val": "Annual wage Supplement",
+                  "val": "Annual Wage Supplement (AWS) of 1 month of their basic",
                   "offset": 30
                 }
               ],
@@ -1227,26 +819,20 @@
         ],
         "tags": [
           {
-<<<<<<< HEAD
-            "line": 8,
+            "line": 9,
             "name": "@PruBuddyChat"
-=======
-            "line": 19,
-            "name": "@DemoPositive2"
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
           }
         ]
       },
       {
-<<<<<<< HEAD
-        "line": 23,
+        "line": 24,
         "name": "User Chats and Validates Response from  Virtual Assistant",
         "description": "",
         "id": "chatbox-scenarios;user-chats-and-validates-response-from--virtual-assistant;;11",
         "after": [
           {
             "result": {
-              "duration": 155773,
+              "duration": 126730,
               "status": "passed"
             },
             "match": {
@@ -1254,28 +840,15 @@
             }
           }
         ],
-=======
-        "line": 35,
-        "name": "User Chats and Validates Response from  Virtual Assistant",
-        "description": "",
-        "id": "login-scenarios;user-chats-and-validates-response-from--virtual-assistant;;11",
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 18716389538,
+              "duration": 34754568943,
               "status": "passed"
             },
-            "line": 10,
-=======
-              "duration": 13623778664,
-              "status": "passed"
-            },
-            "line": 21,
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
+            "line": 11,
             "name": "User sends Request Text \"My Travel Benifits\"",
             "match": {
               "arguments": [
@@ -1293,22 +866,15 @@
           },
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 103380,
+              "duration": 1142499064,
               "status": "passed"
             },
-            "line": 11,
-=======
-              "duration": 103823,
-              "status": "passed"
-            },
-            "line": 22,
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
-            "name": "PruBuddy sends Response Text \"job Level\"",
+            "line": 12,
+            "name": "PruBuddy sends Response Text \"Job Level?\"",
             "match": {
               "arguments": [
                 {
-                  "val": "job Level",
+                  "val": "Job Level?",
                   "offset": 30
                 }
               ],
@@ -1322,26 +888,20 @@
         ],
         "tags": [
           {
-<<<<<<< HEAD
-            "line": 8,
+            "line": 9,
             "name": "@PruBuddyChat"
-=======
-            "line": 19,
-            "name": "@DemoPositive2"
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
           }
         ]
       },
       {
-<<<<<<< HEAD
-        "line": 24,
+        "line": 25,
         "name": "User Chats and Validates Response from  Virtual Assistant",
         "description": "",
         "id": "chatbox-scenarios;user-chats-and-validates-response-from--virtual-assistant;;12",
         "after": [
           {
             "result": {
-              "duration": 147829,
+              "duration": 136817,
               "status": "passed"
             },
             "match": {
@@ -1349,28 +909,15 @@
             }
           }
         ],
-=======
-        "line": 36,
-        "name": "User Chats and Validates Response from  Virtual Assistant",
-        "description": "",
-        "id": "login-scenarios;user-chats-and-validates-response-from--virtual-assistant;;12",
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 19513897382,
+              "duration": 21576116129,
               "status": "passed"
             },
-            "line": 10,
-=======
-              "duration": 14358393206,
-              "status": "passed"
-            },
-            "line": 21,
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
+            "line": 11,
             "name": "User sends Request Text \"Associate VP \u0026 Below\"",
             "match": {
               "arguments": [
@@ -1388,22 +935,15 @@
           },
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 114004,
+              "duration": 1225413814,
               "status": "passed"
             },
-            "line": 11,
-=======
-              "duration": 117004,
-              "status": "passed"
-            },
-            "line": 22,
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
-            "name": "PruBuddy sends Response Text \"airline\"",
+            "line": 12,
+            "name": "PruBuddy sends Response Text \"Economy class of airline\"",
             "match": {
               "arguments": [
                 {
-                  "val": "airline",
+                  "val": "Economy class of airline",
                   "offset": 30
                 }
               ],
@@ -1417,26 +957,20 @@
         ],
         "tags": [
           {
-<<<<<<< HEAD
-            "line": 8,
+            "line": 9,
             "name": "@PruBuddyChat"
-=======
-            "line": 19,
-            "name": "@DemoPositive2"
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
           }
         ]
       },
       {
-<<<<<<< HEAD
-        "line": 25,
+        "line": 26,
         "name": "User Chats and Validates Response from  Virtual Assistant",
         "description": "",
         "id": "chatbox-scenarios;user-chats-and-validates-response-from--virtual-assistant;;13",
         "after": [
           {
             "result": {
-              "duration": 142042,
+              "duration": 101764,
               "status": "passed"
             },
             "match": {
@@ -1444,28 +978,15 @@
             }
           }
         ],
-=======
-        "line": 37,
-        "name": "User Chats and Validates Response from  Virtual Assistant",
-        "description": "",
-        "id": "login-scenarios;user-chats-and-validates-response-from--virtual-assistant;;13",
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 20471384850,
+              "duration": 19736075471,
               "status": "passed"
             },
-            "line": 10,
-=======
-              "duration": 15150433537,
-              "status": "passed"
-            },
-            "line": 21,
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
+            "line": 11,
             "name": "User sends Request Text \"Who is my Hr Partner\"",
             "match": {
               "arguments": [
@@ -1483,22 +1004,15 @@
           },
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 113335,
+              "duration": 1249492050,
               "status": "passed"
             },
-            "line": 11,
-=======
-              "duration": 95084,
-              "status": "passed"
-            },
-            "line": 22,
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
-            "name": "PruBuddy sends Response Text \"HR-related matters\"",
+            "line": 12,
+            "name": "PruBuddy sends Response Text \"For any HR-related matters,\"",
             "match": {
               "arguments": [
                 {
-                  "val": "HR-related matters",
+                  "val": "For any HR-related matters,",
                   "offset": 30
                 }
               ],
@@ -1512,13 +1026,71 @@
         ],
         "tags": [
           {
-<<<<<<< HEAD
-            "line": 8,
+            "line": 9,
             "name": "@PruBuddyChat"
-=======
-            "line": 19,
-            "name": "@DemoPositive2"
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "Logout Prutopia",
+        "description": "",
+        "id": "chatbox-scenarios;logout-prutopia",
+        "after": [
+          {
+            "result": {
+              "duration": 127988,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17784283361,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User Clicks Account Icon",
+            "match": {
+              "location": "StepDefinitions.User_Clicks_Account_Icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1676693990,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User Clicks on Logout Button",
+            "match": {
+              "location": "StepDefinitions.User_Clicks_on_Logout_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6550632127,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User is able to see Login Screen with User Logged Out",
+            "match": {
+              "location": "StepDefinitions.User_is_able_to_see_Login_Screen_with_User_Logged_Out()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 28,
+            "name": "@LogoutPrutopia"
           }
         ]
       }

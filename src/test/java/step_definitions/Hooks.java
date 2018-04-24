@@ -82,14 +82,28 @@ public class Hooks{
 
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setCapability("appium-version", "1.7.2");
-        capabilities.setCapability("platformVersion", "11.2");
+        //Simulator Capabilities
+   /*     capabilities.setCapability("appium-version", "1.7.2");
+        capabilities.setCapability("platformVersion", "11.3");
         capabilities.setCapability("platformName", "ios");
         capabilities.setCapability("automationName", "XCUITest");
-        capabilities.setCapability("deviceName", "iPhone X");
+        capabilities.setCapability("deviceName", "iPhone X");*/
+//Real Device Capabilities
+        capabilities.setCapability("appium-version", "1.7.2");
+        capabilities.setCapability("platformVersion", "11.3");
+        capabilities.setCapability("platformName", "iOS");
+        capabilities.setCapability("automationName", "XCUITest");
+        capabilities.setCapability("deviceName", "Aadiphone");
+        capabilities.setCapability("noReset", "true");
+        capabilities.setCapability("bundleId", "sg.com.prudential.prutopia");
+        capabilities.setCapability("udid", "f044c9c3e6dd28c841876cfa7387f5904c329d9d");
 
-        String appPath = "/Users/user/Library/Developer/Xcode/DerivedData/prutopia-bshhxtvrkfrofgazervrafchfnrm/Build/Products/Debug-iphonesimulator/prutopia.app";
 
+
+       //simulator app path
+        // String appPath = "/Users/user/Library/Developer/Xcode/DerivedData/prutopia-bshhxtvrkfrofgazervrafchfnrm/Build/Products/Release-iphonesimulator/prutopia.app";
+//Real Device app path
+        String appPath = "/Users/user/Library/Developer/Xcode/DerivedData/prutopia-bshhxtvrkfrofgazervrafchfnrm/Build/Products/Release-iphoneos/prutopia.app";
         assert appPath != null: "Path to iOS app is not set";
         System.out.println("iOS App path: "+ appPath);
         capabilities.setCapability("app", appPath);

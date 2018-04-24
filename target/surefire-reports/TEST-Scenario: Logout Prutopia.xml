@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: Logout Prutopia" time="0.027" tests="51" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="9.0.4+11"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/user/Documents/CucumberAppium_Final"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="user.country" value="SG"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/user/Documents/CucumberAppium_Final"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="9.0.4+11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/5p/_0ss2zkd615gt4l3l_rcfqq00000gp/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.5.3/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/user/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.5.3/libexec/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="53.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.13.4"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.5.3/libexec/lib/jansi-native"/>
+    <property name="user.home" value="/Users/user"/>
+    <property name="user.timezone" value="Asia/Singapore"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="file.encoding" value="US-ASCII"/>
+    <property name="java.specification.version" value="9"/>
+    <property name="user.name" value="user"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.5.3/libexec/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="9"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean package"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="9.0.4"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.5.3/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="When User Opens Prutopia Application and navigated to Azure Directory for Login" classname="| prutopia@azurepaloit.onmicrosoft.com | Hugu81801 |" time="0.003"/>
+  <testcase name="When User Enters Username &quot;prutopia@azurepaloit.onmicrosoft.com&quot;" classname="| prutopia@azurepaloit.onmicrosoft.com | Hugu81801 |" time="0"/>
+  <testcase name="Then User Clicks on Next Button" classname="| prutopia@azurepaloit.onmicrosoft.com | Hugu81801 |" time="0"/>
+  <testcase name="When User Enters Password &quot;Hugu81801&quot;" classname="| prutopia@azurepaloit.onmicrosoft.com | Hugu81801 |" time="0.001"/>
+  <testcase name="Then User Clicks on Sign in Button" classname="| prutopia@azurepaloit.onmicrosoft.com | Hugu81801 |" time="0.001"/>
+  <testcase name="Then User is Navigated to Home Page of the Application" classname="| prutopia@azurepaloit.onmicrosoft.com | Hugu81801 |" time="0"/>
+  <testcase name="Then Elements in Home Page are Validated" classname="| prutopia@azurepaloit.onmicrosoft.com | Hugu81801 |" time="0"/>
+  <testcase name="| prutopia@azurepaloit.onmicrosoft.com | Hugu81801 |" classname="| prutopia@azurepaloit.onmicrosoft.com | Hugu81801 |" time="0.002"/>
+  <testcase name="When User Clicks on the Chat Icon at Bottom of Home Page" classname="Scenario: Navigating to PruBuddy and Perform Chat" time="0"/>
+  <testcase name="Then User is navigated to the Chat Page of the Application" classname="Scenario: Navigating to PruBuddy and Perform Chat" time="0"/>
+  <testcase name="Scenario: Navigating to PruBuddy and Perform Chat" classname="Scenario: Navigating to PruBuddy and Perform Chat" time="0.001"/>
+  <testcase name="When User sends Request Text &quot;Hi&quot;" classname="| Hi | Hello, I am PRUBuddy,  your virtual assistant. |" time="0"/>
+  <testcase name="Then PruBuddy sends Response Text &quot;Hello, I am PRUBuddy,  your virtual assistant.&quot;" classname="| Hi | Hello, I am PRUBuddy,  your virtual assistant. |" time="0"/>
+  <testcase name="| Hi | Hello, I am PRUBuddy,  your virtual assistant. |" classname="| Hi | Hello, I am PRUBuddy,  your virtual assistant. |" time="0.002"/>
+  <testcase name="When User sends Request Text &quot;My Leave&quot;" classname="| My Leave | May I know what is your job level? |" time="0"/>
+  <testcase name="Then PruBuddy sends Response Text &quot;May I know what is your job level?&quot;" classname="| My Leave | May I know what is your job level? |" time="0"/>
+  <testcase name="| My Leave | May I know what is your job level? |" classname="| My Leave | May I know what is your job level? |" time="0.001"/>
+  <testcase name="When User sends Request Text &quot;Senior Manager&quot;" classname="| Senior Manager | Yes or No? |" time="0"/>
+  <testcase name="Then PruBuddy sends Response Text &quot;Yes or No?&quot;" classname="| Senior Manager | Yes or No? |" time="0"/>
+  <testcase name="| Senior Manager | Yes or No? |" classname="| Senior Manager | Yes or No? |" time="0.001"/>
+  <testcase name="When User sends Request Text &quot;Yes&quot;" classname="| Yes | You are entitled to 22 days of leave per annum. |" time="0"/>
+  <testcase name="Then PruBuddy sends Response Text &quot;You are entitled to 22 days of leave per annum.&quot;" classname="| Yes | You are entitled to 22 days of leave per annum. |" time="0"/>
+  <testcase name="| Yes | You are entitled to 22 days of leave per annum. |" classname="| Yes | You are entitled to 22 days of leave per annum. |" time="0.002"/>
+  <testcase name="When User sends Request Text &quot;Long Leave Service&quot;" classname="| Long Leave Service | Less or More than 10 years? |" time="0"/>
+  <testcase name="Then PruBuddy sends Response Text &quot;Less or More than 10 years?&quot;" classname="| Long Leave Service | Less or More than 10 years? |" time="0"/>
+  <testcase name="| Long Leave Service | Less or More than 10 years? |" classname="| Long Leave Service | Less or More than 10 years? |" time="0.001"/>
+  <testcase name="When User sends Request Text &quot;10 years or longer&quot;" classname="| 10 years or longer | Long Service Leave of 7 working days is applicable |" time="0"/>
+  <testcase name="Then PruBuddy sends Response Text &quot;Long Service Leave of 7 working days is applicable&quot;" classname="| 10 years or longer | Long Service Leave of 7 working days is applicable |" time="0"/>
+  <testcase name="| 10 years or longer | Long Service Leave of 7 working days is applicable |" classname="| 10 years or longer | Long Service Leave of 7 working days is applicable |" time="0.002"/>
+  <testcase name="When User sends Request Text &quot;Working hours&quot;" classname="| Working hours | head office or customer centre? |" time="0"/>
+  <testcase name="Then PruBuddy sends Response Text &quot;head office or customer centre?&quot;" classname="| Working hours | head office or customer centre? |" time="0"/>
+  <testcase name="| Working hours | head office or customer centre? |" classname="| Working hours | head office or customer centre? |" time="0.002"/>
+  <testcase name="When User sends Request Text &quot;Head office&quot;" classname="| Head office | Normal Working Hours: 8.30am to 5.15pm |" time="0"/>
+  <testcase name="Then PruBuddy sends Response Text &quot;Normal Working Hours: 8.30am to 5.15pm&quot;" classname="| Head office | Normal Working Hours: 8.30am to 5.15pm |" time="0"/>
+  <testcase name="| Head office | Normal Working Hours: 8.30am to 5.15pm |" classname="| Head office | Normal Working Hours: 8.30am to 5.15pm |" time="0.001"/>
+  <testcase name="When User sends Request Text &quot;Annual wage Supplement&quot;(| Annual wage Supplement | Annual Wage Supplement " classname="AWS) of 1 month of their basic |" time="0"/>
+  <testcase name="Then PruBuddy sends Response Text &quot;Annual Wage Supplement (AWS) of 1 month of their basic&quot;(| Annual wage Supplement | Annual Wage Supplement " classname="AWS) of 1 month of their basic |" time="0"/>
+  <testcase name="| Annual wage Supplement | Annual Wage Supplement " classname="| Annual wage Supplement | Annual Wage Supplement (AWS) of 1 month of their basic |" time="0.001"/>
+  <testcase name="When User sends Request Text &quot;My Travel Benifits&quot;" classname="| My Travel Benifits | Job Level? |" time="0"/>
+  <testcase name="Then PruBuddy sends Response Text &quot;Job Level?&quot;" classname="| My Travel Benifits | Job Level? |" time="0"/>
+  <testcase name="| My Travel Benifits | Job Level? |" classname="| My Travel Benifits | Job Level? |" time="0.002"/>
+  <testcase name="When User sends Request Text &quot;Associate VP &amp; Below&quot;" classname="| Associate VP &amp; Below | Economy class of airline |" time="0"/>
+  <testcase name="Then PruBuddy sends Response Text &quot;Economy class of airline&quot;" classname="| Associate VP &amp; Below | Economy class of airline |" time="0"/>
+  <testcase name="| Associate VP &amp; Below | Economy class of airline |" classname="| Associate VP &amp; Below | Economy class of airline |" time="0.001"/>
+  <testcase name="When User sends Request Text &quot;Who is my Hr Partner&quot;" classname="| Who is my Hr Partner | For any HR-related matters, |" time="0"/>
+  <testcase name="Then PruBuddy sends Response Text &quot;For any HR-related matters,&quot;" classname="| Who is my Hr Partner | For any HR-related matters, |" time="0"/>
+  <testcase name="| Who is my Hr Partner | For any HR-related matters, |" classname="| Who is my Hr Partner | For any HR-related matters, |" time="0.001"/>
+  <testcase name="When User Clicks Account Icon" classname="Scenario: Logout Prutopia" time="0"/>
+  <testcase name="When User Clicks on Logout Button" classname="Scenario: Logout Prutopia" time="0.001"/>
+  <testcase name="Then User is able to see Login Screen with User Logged Out" classname="Scenario: Logout Prutopia" time="0"/>
+  <testcase name="Scenario: Logout Prutopia" classname="Scenario: Logout Prutopia" time="0.001"/>
+</testsuite>

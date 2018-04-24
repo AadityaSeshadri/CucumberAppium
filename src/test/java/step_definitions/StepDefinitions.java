@@ -38,31 +38,12 @@ public class StepDefinitions {
     }
 
 
-<<<<<<< HEAD
 
     @When("^User Opens Prutopia Application and navigated to Azure Directory for Login$")
     public void user_is_navigated_to_Azure_Directory_for_Login() throws Throwable
     {
         loginPage.user_is_navigated_to_Azure_Directory_for_Login(driver,scenario);
-=======
-/*    @When("^User Opens Prutopia Application$")
-    public void user_Opens_Prutopia_Application() throws Throwable {
 
-        System.out.println("User Opens Prutopia Application");
-        LoginPage.user_Opens_Prutopia_Application(driver,scenario);
-    }
-
-    @Then("^User should be able to see Splash Screen$")
-    public void user_should_be_able_to_see_Splash_Screen() throws Throwable {
-
-        LoginPage.user_should_be_able_to_see_Splash_Screen(driver,scenario);
-    }*/
-
-    @When("^User Opens Prutopia Application and navigated to Azure Directory for Login$")
-    public void user_is_navigated_to_Azure_Directory_for_Login() throws Throwable {
-
-        LoginPage.user_is_navigated_to_Azure_Directory_for_Login(driver,scenario);
->>>>>>> 603d37909f01258015dd667f68673c884fb3ca44
     }
 
     @When("^User Enters Username \"(.*?)\"$")
@@ -137,6 +118,22 @@ public class StepDefinitions {
     public void User_Clicks_on_Main_Screen_Icon() throws Throwable {
         chatPage.User_Clicks_on_Main_Screen_Icon();
     }
+
+    @Then("^User Clicks Account Icon$")
+    public void User_Clicks_Account_Icon() throws Throwable {
+        chatPage.User_Clicks_Account_Icon();
+    }
+
+    @Then("^User Clicks on Logout Button$")
+    public void User_Clicks_on_Logout_Button() throws Throwable {
+        chatPage.User_Clicks_on_Logout_Button();
+    }
+
+    @Then("^User is able to see Login Screen with User Logged Out$")
+    public void User_is_able_to_see_Login_Screen_with_User_Logged_Out() throws Throwable {
+        chatPage.User_is_able_to_see_Login_Screen_with_User_Logged_Out();
+    }
+
 
 
 
