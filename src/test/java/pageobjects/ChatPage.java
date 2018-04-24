@@ -133,8 +133,8 @@ public class ChatPage {
     {
         String Actual_Response = Txt_Last_Chat.getAttribute("label").trim().toString();
         Actual_Response = Actual_Response.replaceAll("\\r\\n|\\r|\\n", "");
-        System.out.println("Actual Response Text" +  Actual_Response);
-        System.out.println("Expected Response text" +resp_text.trim());
+        //System.out.println("Actual Response Text" +  Actual_Response);
+        //System.out.println("Expected Response text" +resp_text.trim());
 
         Assert.assertTrue(Actual_Response.contains(resp_text.trim()));
     }
